@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-### Profile
+### 👨‍💻Profile
 
 <span style="font-family:Arial; font-size:0.8em;"> 
 I am currently a Ph.D. student at Southeast University, under the supervision of [<span style="color:#4B0082;"><strong>Associate Prof. Yuheng Jia</strong></span>](https://cse.seu.edu.cn/2020/1114/c23024a353193/page.htm). I received my M.S. degree from Henan University in June 2023, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhong</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Prior to that, I obtained my Bachelor’s degree in 2020 from Henan Institute Of Engineering. My research interests lie in machine learning, with a focus on weakly supervised learning.
