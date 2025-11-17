@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-### 👩🏻‍💻Profile
+### Profile
 
 <span style="font-family:Arial; font-size:0.8em;"> 
 I am currently a Phd student at Southeast University. I received my Mater degree in June 2023 from Henan University, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhong</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Before that, I obtained my Bachelor’s degree in 2020, from Henan Institute Of Engineering.  
