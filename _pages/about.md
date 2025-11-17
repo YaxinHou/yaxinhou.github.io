@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "HOU YAXIN"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
