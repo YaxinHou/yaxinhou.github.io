@@ -29,7 +29,7 @@ author:
   bio              : "Man proposes, god disposes."
   location         : "NanJing, JiangSu"
   employer         : "Southeast University"
-  uri              : "Southeast University"
+  uri              : # URL
   email            : "yaxin@seu.edu.cn" 
 
   # Academic websites
