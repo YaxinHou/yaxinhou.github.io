@@ -14,7 +14,7 @@ redirect_from:
 ### ⚡️News!
 <div style="max-height:300px; overflow-y:auto; border:1px solid #ccc; padding:10px;">
 <span style="font-family:Arial; font-size:0.8em;">
-
+📌 <span style="color:#4B0082;"><strong>[2025.9]</strong></span> Our work "Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning" is accepted by NeurIPS 2025!  <a href="https://arxiv.org/abs/2510.03993" style="color:#00308B;">Paper</a> <a href="https://github.com/YaxinHou/CPG">Codes</a><br>
 </span>
 </div>
 
