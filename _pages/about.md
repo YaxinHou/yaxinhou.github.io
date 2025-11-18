@@ -110,8 +110,10 @@ redirect_from:
   </div>
 </div>
 
-<div style="width: 100%; max-width: 300px; text-align: center;">
-  <div style="width: 100%; max-height: 300px; overflow: hidden; border-radius: 8px;">
-    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=4D0h1VqEfuXzDioG4SfurpFAjXyS5BKdHFuIwYdKIHE&cl=ffffff&w=a"></script>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
+  <div style="max-width: 300px; text-align: center;">
+    <div style="width: 100%; max-height: 300px; overflow: hidden; border-radius: 8px;">
+      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=4D0h1VqEfuXzDioG4SfurpFAjXyS5BKdHFuIwYdKIHE&cl=ffffff&w=a"></script>
+    </div>
   </div>
 </div>
