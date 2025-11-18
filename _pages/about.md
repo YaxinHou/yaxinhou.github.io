@@ -37,13 +37,13 @@ redirect_from:
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    max-width: 200px;
+    max-width: 150px;
     max-height: 150px;
   }
 </style>
 
 <div class="publication-container">
-  <img src="./images/cpg.png" alt="Publication Image">
+  <img src="./images/CPG.png" alt="Publication Image">
   <div>
     <span style="color: #00308B; font-weight: bold">[NeurIPS 2025]</span> Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning.
     <br>
