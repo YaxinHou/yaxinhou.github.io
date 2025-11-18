@@ -40,7 +40,7 @@ redirect_from:
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    max-width: 220px;
+    max-width: 240px;
     max-height: 150px;
   }
 </style>
@@ -96,7 +96,7 @@ redirect_from:
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    max-width: 200px;
+    max-width: 240px;
     max-height: 150px;
   }
 </style>
