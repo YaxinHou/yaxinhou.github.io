@@ -24,7 +24,9 @@ redirect_from:
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> For the full list, please refer to my google scholar page: <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">Google Scholar</a>
 
-<span style="font-size:1.0em; font-weight: bold">Conference Papers</span> 
+<span style="font-size:0.9em; font-weight: bold">Conference Papers</span>
+
+<div style="height:1px; background-color: #000; margin: 2px 0"></div>
 
 <style>
   .publication-container {
