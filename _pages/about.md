@@ -24,4 +24,34 @@ redirect_from:
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> For the full list, please refer to my google scholar page: <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">Google Scholar</a>
 
+<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
+
+**Conference Papers**
+
+<style>
+  .publication-container {
+    clear: both;
+    margin-bottom: 2em;
+    font-size:0.8em
+  }
+
+  .publication-container img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 150px;
+    max-height: 150px;
+  }
+</style>
+
+<div class="publication-container">
+  <img src="./images/Repblend.png" alt="Publication Image">
+  
+  <div>
+    <span style="color: #00308B; font-weight: bold">[NeurIPS 2025]</span> Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning.
+ <br>
+    <strong style="color:#4B0082;">Yaxin Hou</strong>, Bo Han, Yuheng Jia, Hui LIU, Junhui Hou.
+  </div>
+</div>
+
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=DUZ5ltq0MZsKYFClVz-_l6DGjjcuIilnJvRuR-Ubh9w&cl=ffffff&w=a"></script>
