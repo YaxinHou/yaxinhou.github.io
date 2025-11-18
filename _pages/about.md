@@ -37,8 +37,8 @@ redirect_from:
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    max-width: 150px;
-    max-height: 200px;
+    max-width: 200px;
+    max-height: 150px;
   }
 </style>
 
