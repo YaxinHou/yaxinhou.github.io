@@ -43,6 +43,15 @@ redirect_from:
 </style>
 
 <div class="publication-container">
+  <img src="./images/DiCaP.png" alt="Publication Image">
+  <div>
+    <span style="color: #00308B; font-weight: bold">[AAAI 2026]</span> DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning.
+    <br>
+    Bo Han, Zhuoming Li, Xiaoyu Wang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Hui Liu, Junhui Hou, Yuheng Jia.
+  </div>
+</div>
+
+<div class="publication-container">
   <img src="./images/CPG.png" alt="Publication Image">
   <div>
     <span style="color: #00308B; font-weight: bold">[NeurIPS 2025]</span> Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning.
