@@ -27,6 +27,7 @@ redirect_from:
 <hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
 **Conference Papers**
+<ul>
 
 <style>
   .publication-container {
@@ -39,7 +40,7 @@ redirect_from:
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    max-width: 200px;
+    max-width: 150px;
     max-height: 120px;
   }
 </style>
