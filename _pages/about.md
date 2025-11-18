@@ -26,8 +26,6 @@ redirect_from:
 
 <span style="font-size:0.9em; font-weight: bold">Conference Papers</span>
 
-<div style="height:1px; background-color: #000; margin: 2px 0"></div>
-
 <style>
   .publication-container {
     clear: both;
@@ -40,7 +38,7 @@ redirect_from:
     margin-right: 10px;
     margin-bottom: 10px;
     max-width: 200px;
-    max-height: 120px;
+    max-height: 150px;
   }
 </style>
 
