@@ -39,7 +39,7 @@ redirect_from:
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    max-width: 150px;
+    max-width: 300px;
     max-height: 150px;
   }
 </style>
