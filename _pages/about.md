@@ -51,4 +51,13 @@ redirect_from:
   </div>
 </div>
 
+<div class="publication-container">
+  <img src="./images/Meta-Expert.png" alt="Publication Image">
+  <div>
+    <span style="color: #00308B; font-weight: bold">[ICML 2025]</span> A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning.
+    <br>
+    <strong style="color:#4B0082;">Yaxin Hou</strong>, Yuheng Jia.
+  </div>
+</div>
+
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=DUZ5ltq0MZsKYFClVz-_l6DGjjcuIilnJvRuR-Ubh9w&cl=ffffff&w=a"></script>
