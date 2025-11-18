@@ -111,7 +111,7 @@ redirect_from:
 </div>
 
 <div style="width: 100%; max-width: 300px; text-align: center;">
-  <div style="width: 100%; max-height: 300px; border-radius: 8px;">
+  <div style="width: 100%; max-height: 300px; overflow: hidden; border-radius: 8px;">
     <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=4D0h1VqEfuXzDioG4SfurpFAjXyS5BKdHFuIwYdKIHE&cl=ffffff&w=a"></script>
   </div>
 </div>
