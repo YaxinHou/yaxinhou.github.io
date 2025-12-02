@@ -130,6 +130,12 @@ redirect_from:
 
 </ul>
 
+<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
+
+### 📧Contact
+
+<span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Room 1009, Liberal Arts Building Building. School of Computer Science and Engineering. </span>
+
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
   <div style="width: 100%; max-width: 300px; text-align: center;">
     <div style="width: 100%; max-height: 300px; overflow: hidden; border-radius: 8px;">
