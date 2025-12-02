@@ -25,8 +25,6 @@ redirect_from:
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> For the full list, please refer to my google scholar page: <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">Google Scholar</a>
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
-
 <span style="font-size:0.9em; font-weight: bold">Conference Papers</span>
 
 <style>
@@ -80,8 +78,6 @@ redirect_from:
     Chongsheng Zhang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Ke Chen, Shuang Cao, Gaojuan Fan, Ji Liu.
   </div>
 </div>
-
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
 <span style="font-size:0.9em; font-weight: bold">Journal Papers</span>
 
