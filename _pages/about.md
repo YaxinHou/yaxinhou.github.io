@@ -121,6 +121,11 @@ redirect_from:
   <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
 </ul>
 
+<span style="font-size:0.9em; font-weight: bold">Journal Reviewer</span>
+<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
+  <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
+</ul>
+
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
   <div style="width: 100%; max-width: 300px; text-align: center;">
     <div style="width: 100%; max-height: 300px; overflow: hidden; border-radius: 8px;">
