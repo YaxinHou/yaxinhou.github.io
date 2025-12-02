@@ -11,6 +11,8 @@ redirect_from:
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> I am currently a Ph.D. student at Southeast University, under the supervision of [<span style="color:#4B0082;"><strong>Assoc. Prof. Yuheng Jia</strong></span>](https://jyh-learning.github.io). I received my M.S. degree from Henan University in 2023, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhang</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Before that, I obtained my Bachelor’s degree in 2020 from Henan Institute of Engineering. My research interests lie in machine learning, with a focus on long-tailed learning and weakly supervised learning. </span>
 
+<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
+
 ### ⚡️News
 <div style="max-height:300px; overflow-y:auto; border:1px solid #ccc; padding:10px;">
 <span style="font-family:Arial; font-size:0.8em;">
@@ -20,6 +22,8 @@ redirect_from:
 📌 <span style="color:#4B0082;"><strong>[2025.05]</strong></span> Our work "A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning" is accepted by ICML 2025! <a href="https://arxiv.org/abs/2505.16341" style="color:#00308B;">Paper</a> <a href="https://github.com/YaxinHou/Meta-Expert">Codes</a><br>
 </span>
 </div>
+
+<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
 ### 📝Publications
 
@@ -106,23 +110,17 @@ redirect_from:
   </div>
 </div>
 
+<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
+
 ### 👨‍💻Professional Services
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;">
-<ul style="margin-top: 0; margin-bottom: 1em; line-height: 1.6;">
-  <li><strong>Conference Reviewer/Program Committee Member</strong>
+  <span style="font-size:0.9em; font-weight: bold">Conference Reviewer/Program Committee Member</span>
     <ul style="margin-top: 0.2em; margin-bottom: 0.5em;">
       <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
       <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
     </ul>
   </li>
-  
-  <li><strong>Journal Reviewer</strong>
-    <ul style="margin-top: 0.2em; margin-bottom: 0.5em;">
-
-    </ul>
-  </li>
-</ul>
 </span>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
