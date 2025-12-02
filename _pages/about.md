@@ -50,6 +50,7 @@ redirect_from:
 <div class="publication-container">
   <img src="./images/DiCaP.png" alt="Publication Image">
   <div>
+    <div class="badge">AAAI 2026</div>
     <span style="color: #00308B; font-weight: bold">[AAAI 2026]</span> DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning.
     <br>
     Bo Han, Zhuoming Li, Xiaoyu Wang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Hui Liu, Junhui Hou, Yuheng Jia.
