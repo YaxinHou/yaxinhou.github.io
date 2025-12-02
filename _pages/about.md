@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-### 👨‍💻Profile
+### 👨‍🎓Profile
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> I am currently a Ph.D. student at Southeast University, under the supervision of [<span style="color:#4B0082;"><strong>Assoc. Prof. Yuheng Jia</strong></span>](https://jyh-learning.github.io). I received my M.S. degree from Henan University in 2023, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhang</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Before that, I obtained my Bachelor’s degree in 2020 from Henan Institute of Engineering. My research interests lie in machine learning, with a focus on long-tailed learning and weakly supervised learning. </span>
 
@@ -105,6 +105,8 @@ redirect_from:
     <strong style="color:#4B0082;">Yaxin Hou</strong>, Weiping Ding, Chongsheng Zhang.
   </div>
 </div>
+
+### 👨‍💻Professional Services
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
   <div style="width: 100%; max-width: 300px; text-align: center;">
