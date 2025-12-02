@@ -118,6 +118,7 @@ redirect_from:
 <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
   <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
   <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
+  <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
 </ul>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
