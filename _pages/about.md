@@ -114,8 +114,8 @@ redirect_from:
 
 ### 👨‍💻Professional Services
 
-<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em; font-weight: bold;">
-<li>Conference Reviewer/Program Committee Member</li>
+<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
+<li><strong>Conference Reviewer/Program Committee Member</strong></li>
 
   <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
     <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
@@ -123,7 +123,7 @@ redirect_from:
     <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
   </ul>
 
-<li>Journal Reviewer</li>
+<li><strong>Journal Reviewer</strong></li>
   <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
     <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
   </ul>
