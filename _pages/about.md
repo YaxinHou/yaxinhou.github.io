@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-### 👨‍🎓Profile
+# 👨‍🎓Profile
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> I am currently a Ph.D. student at Southeast University, under the supervision of [<span style="color:#4B0082;"><strong>Assoc. Prof. Yuheng Jia</strong></span>](https://jyh-learning.github.io). I received my M.S. degree from Henan University in 2023, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhang</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Before that, I obtained my Bachelor’s degree in 2020 from Henan Institute of Engineering. My research interests lie in machine learning, with a focus on long-tailed learning and weakly supervised learning. </span>
 
 <hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
-### 🔥News
+# 🔥News
 <div style="max-height:300px; overflow-y:auto; border:1px solid #ccc; padding:10px;">
 <span style="font-family:Arial; font-size:0.8em;">
 🎉 <span style="color:#4B0082;"><strong>[2025.11]</strong></span> Our work "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning" is accepted by AAAI 2026! <a href="https://arxiv.org/abs/2511.20225" style="color:#00308B;">Paper</a> <a href="https://github.com/hb-studying/DiCaP">Codes</a><br>
@@ -25,7 +25,7 @@ redirect_from:
 
 <hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
-### 📝Publications
+# 📝Publications
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> For the full list, please refer to my google scholar page: <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">Google Scholar</a>
 
@@ -112,7 +112,7 @@ redirect_from:
 
 <hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
-### 👨‍💻Professional Services
+# 👨‍💻Professional Services
 
 <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
 <li><strong>Conference Reviewer/Program Committee Member</strong></li>
