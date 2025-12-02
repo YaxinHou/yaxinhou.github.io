@@ -114,16 +114,20 @@ redirect_from:
 
 ### 👨‍💻Professional Services
 
-<span style="font-size:0.9em; font-weight: bold">Conference Reviewer/Program Committee Member</span>
-<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
-  <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
-  <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
-  <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
-</ul>
+<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em; font-weight: bold;">
+<li>Conference Reviewer/Program Committee Member</li>
 
-<span style="font-size:0.9em; font-weight: bold">Journal Reviewer</span>
-<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
-  <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
+    <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
+    <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
+    <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
+  </ul>
+
+<li>Journal Reviewer</li>
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
+    <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
+  </ul>
+
 </ul>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
