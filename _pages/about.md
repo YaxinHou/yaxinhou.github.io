@@ -115,7 +115,7 @@ redirect_from:
 ### 👨‍💻Professional Services
 
 <span style="font-size:0.9em; font-weight: bold">Conference Reviewer/Program Committee Member</span>
-<ul style="margin-top: 0.2em; margin-bottom: 0.5em; font-family:Arial; font-size:0.8em;">
+<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
   <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
   <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
 </ul>
