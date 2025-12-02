@@ -104,7 +104,7 @@ redirect_from:
 <div class="publication-container">
   <img src="./images/imFTP.png" alt="Publication Image">
   <div>
-    <span style="color: #00308B; font-weight: bold">[Information Sciences 2024]</span> imFTP: Deep imbalance learning via fuzzy transition and prototypical learning.
+    <span style="color: #00308B; font-weight: bold">[Inf. Sci. 2024]</span> imFTP: Deep imbalance learning via fuzzy transition and prototypical learning.
     <br>
     <strong style="color:#4B0082;">Yaxin Hou</strong>, Weiping Ding, Chongsheng Zhang.
   </div>
@@ -117,14 +117,14 @@ redirect_from:
 <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
 <li><strong>Conference Reviewer/Program Committee Member</strong></li>
 
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
     <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
     <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
     <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
   </ul>
 
 <li><strong>Journal Reviewer</strong></li>
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.8em;">
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
     <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
   </ul>
 
