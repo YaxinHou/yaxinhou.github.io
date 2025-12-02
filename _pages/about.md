@@ -108,6 +108,10 @@ redirect_from:
 
 ### 👨‍💻Professional Services
 
+<span style="font-size:0.9em; font-weight: bold">Conference Reviewer/Program Committee Mumber</span>
+
+<span style="font-size:0.9em; font-weight: bold">Journal Reviewer</span>
+
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
   <div style="width: 100%; max-width: 300px; text-align: center;">
     <div style="width: 100%; max-height: 300px; overflow: hidden; border-radius: 8px;">
