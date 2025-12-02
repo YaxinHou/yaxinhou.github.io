@@ -110,6 +110,11 @@ redirect_from:
 
 <span style="font-size:0.9em; font-weight: bold">Conference Reviewer/Program Committee Mumber</span>
 
+<ul>
+      <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
+      <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
+</ul>
+
 <span style="font-size:0.9em; font-weight: bold">Journal Reviewer</span>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
