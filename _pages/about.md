@@ -115,15 +115,15 @@ redirect_from:
 ### 👨‍💻Professional Services
 
 <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
-<li><strong>Conference Reviewer/Program Committee Member</strong></li>
 
+  <li><strong>Conference Reviewer/Program Committee Member</strong></li>
   <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
     <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
     <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
     <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
   </ul>
 
-<li><strong>Journal Reviewer</strong></li>
+  <li><strong>Journal Reviewer</strong></li>
   <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
     <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
   </ul>
