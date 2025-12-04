@@ -132,6 +132,10 @@ redirect_from:
 
 <hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
+### 🏆Honors/Awards
+
+<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
+
 ### 📧Contact
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Room 1009, Liberal Arts Building. School of Computer Science and Engineering. </span>
