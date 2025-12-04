@@ -117,14 +117,14 @@ redirect_from:
 <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
 
   <li><strong>Conference Reviewer/Program Committee Member</strong></li>
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 0.5em; font-family:Arial; font-size:0.9em;">
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
     <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
     <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
     <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
   </ul>
 
   <li><strong>Journal Reviewer</strong></li>
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 0.5em; font-family:Arial; font-size:0.9em;">
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
     <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
   </ul>
 
@@ -137,14 +137,14 @@ redirect_from:
 <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
 
   <li><strong>Scholarship</strong></li>
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 0.5em; font-family:Arial; font-size:0.9em;">
-    <li>National Scholarship (2025, The Chinese Ministry of Education, in Southeast University).</li>
-    <li>National Encouragement Scholarship (2019, The Henan Department of Education, in Henan Institute of Engineering).</li>
-    <li>National Encouragement Scholarship (2017, The Henan Department of Education, in Henan Institute of Engineering).</li>
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
+    <li>National Scholarship (2025, The Chinese Ministry of Education).</li>
+    <li>National Encouragement Scholarship (2019, The Henan Department of Education).</li>
+    <li>National Encouragement Scholarship (2017, The Henan Department of Education).</li>
   </ul>
 
   <li><strong>Honor</strong></li>
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 0.5em; font-family:Arial; font-size:0.9em;">
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
     <li></li>
   </ul>
 
