@@ -27,7 +27,7 @@ redirect_from:
 
 ### 📝Publications
 
-<span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Papers are listed below, in descending order by year of submission before they are published, or year of publication. Generally, the codes of all the papers will be available. For the full list, please refer to my google scholar page: <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">Google Scholar</a>. </span>
+<span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Papers are listed below, in descending order by year of submission before they are published, or year of publication. Generally, the codes of all the papers will be available. For the full list, please refer to my <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">google scholar page</a>. </span>
 
 <span style="font-size:0.9em; font-weight: bold">Conference Papers</span>
 
