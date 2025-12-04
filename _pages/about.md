@@ -139,8 +139,8 @@ redirect_from:
   <li><strong>Scholarship</strong></li>
   <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
     <li>National Scholarship (2025, The Chinese Ministry of Education, in Southeast University).</li>
-    <li>National Encouragement Scholarship (2019, The Education Department of Henan Province, in Henan Institute of Engineering).</li>
-    <li>National Encouragement Scholarship (2017, The Education Department of Henan Province, in Henan Institute of Engineering).</li>
+    <li>National Encouragement Scholarship (2019, The Henan Department of Education, in Henan Institute of Engineering).</li>
+    <li>National Encouragement Scholarship (2017, The Henan Department of Education, in Henan Institute of Engineering).</li>
   </ul>
 
   <li><strong>Honor</strong></li>
