@@ -145,7 +145,7 @@ redirect_from:
 
   <li><strong>Honor</strong></li>
   <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
-    <li></li>
+    <li>First Prize in Henan Province of the China Undergraduate Mathematical Contest in Modeling (2018, The China Society for Industrial and Applied Mathematics)</li>
   </ul>
 
 </ul>
