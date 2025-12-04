@@ -134,6 +134,20 @@ redirect_from:
 
 ### 🏆Honors/Awards
 
+<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
+<li><strong>Scholarship</strong></li>
+
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
+    <li>National Scholarship (2025, The Chinese Ministry of Education, in Southeast University).</li>
+  </ul>
+
+<li><strong>Honor</strong></li>
+  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
+    <li></li>
+  </ul>
+
+</ul>
+
 <hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
 ### 📧Contact
