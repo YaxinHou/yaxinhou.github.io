@@ -2,7 +2,6 @@
 permalink: /
 title: ""
 author_profile: true
-classes: home-wide
 redirect_from: 
   - /about/
   - /about.html
