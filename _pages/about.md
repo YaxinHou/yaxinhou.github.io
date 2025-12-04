@@ -134,7 +134,7 @@ redirect_from:
 
 ### 📧Contact
 
-<span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Room 1009, Liberal Arts Building Building. School of Computer Science and Engineering. </span>
+<span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Room 1009, Liberal Arts Building. School of Computer Science and Engineering. </span>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
   <div style="width: 100%; max-width: 300px; text-align: center;">
