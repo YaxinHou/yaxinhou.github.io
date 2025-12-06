@@ -115,6 +115,10 @@ redirect_from:
     overflow:hidden;
     box-shadow: 0 3px 10px rgba(0,0,0,0.12);
   }
+
+  .greedy-nav button {
+  display: none !important;
+  }
 </style>
 
 ### 👨‍🎓Profile
