@@ -7,6 +7,106 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #ffffff;
+    color: #222;
+    line-height: 1.6em;
+  }
+
+  h3 {
+    color: #4B0082;
+    font-weight: 800;
+    margin-top: 2.3em;
+    border-left: 6px solid #4B0082;
+    padding-left: 10px;
+    letter-spacing: 0.3px;
+  }
+
+  hr {
+    clear: both;
+    border: none;
+    border-top: 2px dashed #c5c5c5;
+    margin: 3em 0;
+  }
+
+  .card {
+    border-radius: 12px;
+    padding: 18px 22px;
+    background: #fafafa;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  }
+
+  .profile-text {
+    font-size: 0.95em;
+    text-align: justify;
+    line-height: 1.65em;
+    display: block;
+    margin-top: 8px;
+  }
+
+  .news-box {
+    max-height: 300px;
+    overflow-y: auto;
+    border-left: 4px solid #4B0082;
+    padding: 16px 20px;
+    border-radius: 12px;
+    background: #f9f9fc;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
+  }
+
+  .publication-container {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 2.3em;
+    font-size: 0.9em;
+    padding: 12px;
+    background: #fafafa;
+    border-radius: 12px;
+    transition: 0.25s ease;
+    align-items: flex-start;
+    border: 1px solid #eee;
+  }
+
+  .publication-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+  }
+
+  .publication-container img {
+    max-width: 240px;
+    max-height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.18);
+  }
+
+  ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.5em;
+  }
+  li {
+    margin-bottom: 4px;
+  }
+
+  /* Contact Map */
+  .map-container {
+    display:flex; 
+    justify-content:center; 
+    margin:25px 0;
+  }
+  .map-box {
+    width:100%; 
+    max-width:320px; 
+    text-align:center;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+  }
+</style>
+
 ### 👨‍🎓Profile
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> I am currently a Ph.D. student at Southeast University, under the supervision of [<span style="color:#4B0082;"><strong>Assoc. Prof. Yuheng Jia</strong></span>](https://jyh-learning.github.io). I received my M.S. degree from Henan University in 2023, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhang</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Before that, I obtained my Bachelor’s degree in 2020 from Henan Institute of Engineering. My research interests lie in machine learning, with a focus on long-tailed learning and weakly supervised learning. </span>
