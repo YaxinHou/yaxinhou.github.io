@@ -265,7 +265,6 @@ redirect_from:
     <li>Outstanding Postgraduate (2023, Henan University).</li>
     <li>Outstanding Graduate (2020, The Henan Department of Education).</li>
     <li>Merit Student (2020, The Henan Department of Education).</li>
-    <li>First Prize in Henan Province of the China Undergraduate Mathematical Contest in Modeling (2018, The China Society for Industrial and Applied Mathematics).</li>
   </ul>
 
 </ul>
