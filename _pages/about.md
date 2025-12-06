@@ -16,7 +16,7 @@ redirect_from:
   }
 
   h3 {
-    color: #333333;
+    color: #000000;
     font-weight: 800;
     margin-top: 2.3em;
     letter-spacing: 0.3px;
