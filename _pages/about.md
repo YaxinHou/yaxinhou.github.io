@@ -123,7 +123,6 @@ redirect_from:
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> I am currently a Ph.D. student at Southeast University, under the supervision of [<span style="color:#4B0082;"><strong>Assoc. Prof. Yuheng Jia</strong></span>](https://jyh-learning.github.io). I received my M.S. degree from Henan University in 2023, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhang</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Before that, I obtained my Bachelor’s degree in 2020 from Henan Institute of Engineering. My research interests lie in machine learning, with a focus on long-tailed learning and weakly supervised learning. </span>
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
 ### 🔥News
 <div class="news-box">
@@ -135,7 +134,6 @@ redirect_from:
 </span>
 </div>
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
 ### 📝Publications
 
@@ -226,7 +224,6 @@ redirect_from:
 
 </ul>
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
 ### 👨‍💻Professional Services
 
@@ -246,7 +243,6 @@ redirect_from:
 
 </ul>
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
 ### 🏆Honors/Awards
 
@@ -269,7 +265,6 @@ redirect_from:
 
 </ul>
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
 ### 📧Contact
 
