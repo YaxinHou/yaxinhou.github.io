@@ -56,6 +56,17 @@ redirect_from:
     box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
   }
 
+  .news-item {
+    padding: 10px 12px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    transition: background 0.25s;
+  }
+
+  .news-item:hover {
+    background: #f0eaff;
+  }
+
   .publication-container {
     display: flex;
     gap: 18px;
@@ -87,6 +98,7 @@ redirect_from:
     margin-bottom: 0.5em;
     line-height: 1.5em;
   }
+
   li {
     margin-bottom: 4px;
   }
@@ -96,6 +108,7 @@ redirect_from:
     justify-content:center; 
     margin:25px 0;
   }
+
   .map-box {
     width:100%; 
     max-width:320px; 
@@ -115,10 +128,10 @@ redirect_from:
 ### 🔥News
 <div class="news-box">
 <span style="font-family:Arial; font-size:0.8em;">
-🎉 <span style="color:#4B0082;"><strong>[2025.11]</strong></span> Our work "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning" is accepted by AAAI 2026! <a href="https://arxiv.org/abs/2511.20225" style="color:#00308B;">Paper</a> <a href="https://github.com/hb-studying/DiCaP">Codes</a><br>
-🎉 <span style="color:#4B0082;"><strong>[2025.10]</strong></span> Win National Scholarship for Ph.D. Student!<br>
-🎉 <span style="color:#4B0082;"><strong>[2025.09]</strong></span> Our work "Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning" is accepted by NeurIPS 2025! <a href="https://arxiv.org/abs/2510.03993" style="color:#00308B;">Paper</a> <a href="https://github.com/YaxinHou/CPG">Codes</a><br>
-🎉 <span style="color:#4B0082;"><strong>[2025.05]</strong></span> Our work "A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning" is accepted by ICML 2025! <a href="https://arxiv.org/abs/2505.16341" style="color:#00308B;">Paper</a> <a href="https://github.com/YaxinHou/Meta-Expert">Codes</a><br>
+<div class="news-item"> 🎉 <span style="color:#4B0082;"><strong>[2025.11]</strong></span> Our work "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning" is accepted by AAAI 2026! <a href="https://arxiv.org/abs/2511.20225" style="color:#00308B;">Paper</a> <a href="https://github.com/hb-studying/DiCaP">Codes</a><br>
+<div class="news-item"> 🎉 <span style="color:#4B0082;"><strong>[2025.10]</strong></span> Win National Scholarship for Ph.D. Student!<br>
+<div class="news-item"> 🎉 <span style="color:#4B0082;"><strong>[2025.09]</strong></span> Our work "Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning" is accepted by NeurIPS 2025! <a href="https://arxiv.org/abs/2510.03993" style="color:#00308B;">Paper</a> <a href="https://github.com/YaxinHou/CPG">Codes</a><br>
+<div class="news-item"> 🎉 <span style="color:#4B0082;"><strong>[2025.05]</strong></span> Our work "A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning" is accepted by ICML 2025! <a href="https://arxiv.org/abs/2505.16341" style="color:#00308B;">Paper</a> <a href="https://github.com/YaxinHou/Meta-Expert">Codes</a><br>
 </span>
 </div>
 
