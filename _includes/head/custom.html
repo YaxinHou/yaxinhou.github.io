@@ -17,20 +17,43 @@
 <!-- end custom head snippets -->
 
 <style>
-  .page {
-    max-width: 1100px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+  .sidebar,
+  .page__sidebar {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+    width: 280px;
+    z-index: 1000;
   }
 
-  @media (min-width: 900px) {
-    .page {
-      margin-right: 340px !important;
+  .page,
+  .page-content,
+  .page__inner-wrap {
+    margin-left: 300px !important;
+    max-width: 1200px !important;
+    width: calc(100% - 300px) !important;
+  }
+
+  .wrapper, .container {
+    max-width: none !important;
+    width: 100% !important;
+  }
+
+  @media (max-width: 800px) {
+    .sidebar,
+    .page__sidebar {
+      position: static !important;
+      width: 100% !important;
+      height: auto !important;
+    }
+
+    .page,
+    .page-content,
+    .page__inner-wrap {
+      margin-left: 0 !important;
+      width: 100% !important;
     }
   }
-
-  .wrapper {
-    max-width: none !important;
-  }
 </style>
-
