@@ -91,7 +91,6 @@ redirect_from:
     margin-bottom: 4px;
   }
 
-  /* Contact Map */
   .map-container {
     display:flex; 
     justify-content:center; 
