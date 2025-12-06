@@ -19,8 +19,6 @@ redirect_from:
     color: #4B0082;
     font-weight: 800;
     margin-top: 2.3em;
-    border-left: 6px solid #4B0082;
-    padding-left: 10px;
     letter-spacing: 0.3px;
   }
 
