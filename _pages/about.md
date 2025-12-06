@@ -7,167 +7,171 @@ redirect_from:
   - /about.html
 ---
 
-### 👨‍🎓Profile
+<style>
+  body { font-family: Arial, sans-serif; }
+  .section-title {
+    font-size: 1.5em; 
+    font-weight: 700; 
+    color: #4B0082; 
+    margin-top: 1.5em;
+  }
+  .news-box {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  .pub-container {
+    clear: both;
+    margin-bottom: 2em;
+    font-size: 0.9em;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  .pub-container img {
+    max-width: 230px;
+    max-height: 150px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  }
+  hr.custom {
+    border: none;
+    border-top: 2px dashed #bbb;
+    margin: 2.5em 0;
+  }
+</style>
 
-<span style="font-family:Arial; font-size:0.8em; text-align:justify;"> I am currently a Ph.D. student at Southeast University, under the supervision of [<span style="color:#4B0082;"><strong>Assoc. Prof. Yuheng Jia</strong></span>](https://jyh-learning.github.io). I received my M.S. degree from Henan University in 2023, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhang</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Before that, I obtained my Bachelor’s degree in 2020 from Henan Institute of Engineering. My research interests lie in machine learning, with a focus on long-tailed learning and weakly supervised learning. </span>
+---
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
+## 👨‍🎓 Profile
 
-### 🔥News
-<div style="max-height:300px; overflow-y:auto; border:1px solid #ccc; padding:10px;">
-<span style="font-family:Arial; font-size:0.8em;">
-🎉 <span style="color:#4B0082;"><strong>[2025.11]</strong></span> Our work "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning" is accepted by AAAI 2026! <a href="https://arxiv.org/abs/2511.20225" style="color:#00308B;">Paper</a> <a href="https://github.com/hb-studying/DiCaP">Codes</a><br>
-🎉 <span style="color:#4B0082;"><strong>[2025.10]</strong></span> Win National Scholarship for Ph.D. Student!<br>
-🎉 <span style="color:#4B0082;"><strong>[2025.09]</strong></span> Our work "Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning" is accepted by NeurIPS 2025! <a href="https://arxiv.org/abs/2510.03993" style="color:#00308B;">Paper</a> <a href="https://github.com/YaxinHou/CPG">Codes</a><br>
-🎉 <span style="color:#4B0082;"><strong>[2025.05]</strong></span> Our work "A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning" is accepted by ICML 2025! <a href="https://arxiv.org/abs/2505.16341" style="color:#00308B;">Paper</a> <a href="https://github.com/YaxinHou/Meta-Expert">Codes</a><br>
+<span style="font-size:0.9em; text-align:justify;">
+I am currently a Ph.D. student at Southeast University, advised by 
+<a href="https://jyh-learning.github.io" style="color:#4B0082;"><strong>Assoc. Prof. Yuheng Jia</strong></a>.
+I received my M.S. degree from Henan University in 2023, advised by 
+<a href="https://cs.henu.edu.cn/info/1273/5566.htm" style="color:#4B0082;"><strong>Prof. Chongsheng Zhang</strong></a>. 
+Before that, I obtained my B.Eng. degree in 2020 from Henan Institute of Engineering.  
+My research interests lie in machine learning, especially **long-tailed learning** and **weakly supervised learning**.
+</span>
+
+<hr class="custom"/>
+
+## 🔥 News
+
+<div class="news-box">
+<span style="font-size:0.85em;">
+🎉 <strong style="color:#4B0082;">[2025.11]</strong> Our work <em>“DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning”</em> is accepted by AAAI 2026!  
+<a href="https://arxiv.org/abs/2511.20225" style="color:#00308B;">Paper</a> | 
+<a href="https://github.com/hb-studying/DiCaP">Codes</a><br><br>
+
+🎉 <strong style="color:#4B0082;">[2025.10]</strong> Win National Scholarship for Ph.D. Students!<br><br>
+
+🎉 <strong style="color:#4B0082;">[2025.09]</strong> Our work <em>“Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed SSL”</em> is accepted by NeurIPS 2025!  
+<a href="https://arxiv.org/abs/2510.03993" style="color:#00308B;">Paper</a> | 
+<a href="https://github.com/YaxinHou/CPG">Codes</a><br><br>
+
+🎉 <strong style="color:#4B0082;">[2025.05]</strong> Our work <em>“Meta-Expert for Long-Tailed Semi-Supervised Learning”</em> is accepted by ICML 2025!  
+<a href="https://arxiv.org/abs/2505.16341" style="color:#00308B;">Paper</a> | 
+<a href="https://github.com/YaxinHou/Meta-Expert">Codes</a>
 </span>
 </div>
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
+<hr class="custom"/>
 
-### 📝Publications
+## 📝 Publications
 
-<span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Papers are listed below, in descending order by year of submission before they are published, or year of publication. Generally, the codes of all the papers will be available. For the full list, please refer to <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">my google scholar page</a>. </span>
+<span style="font-size:0.85em;">Papers are listed in descending order of year of submission/publication. For full details, please refer to <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">my Google Scholar</a>.</span>
 
-<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
+### **Conference Papers**
 
-  <li><strong>Conference Papers</strong></li>
-
-  <style>
-    .publication-container {
-      clear: both;
-      margin-bottom: 2em;
-      font-size:0.8em
-    }
-  
-    .publication-container img {
-      float: left;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      max-width: 240px;
-      max-height: 150px;
-    }
-  </style>
-  
-  <div class="publication-container">
-    <img src="./images/DiCaP.png" alt="Publication Image">
-    <div>
-      <span style="color: #00308B; font-weight: bold">[AAAI 2026]</span> DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning.
-      <br>
-      Bo Han, Zhuoming Li, Xiaoyu Wang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Hui Liu, Junhui Hou, Yuheng Jia.
-    </div>
+<div class="pub-container">
+  <img src="./images/DiCaP.png">
+  <div>
+    <strong style="color:#00308B;">[AAAI 2026]</strong>  
+    <strong>DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning</strong><br>
+    Bo Han, Zhuoming Li, Xiaoyu Wang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Hui Liu, Junhui Hou, Yuheng Jia.
   </div>
-  
-  <div class="publication-container">
-    <img src="./images/CPG.png" alt="Publication Image">
-    <div>
-      <span style="color: #00308B; font-weight: bold">[NeurIPS 2025]</span> Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning.
-      <br>
-      <strong style="color:#4B0082;">Yaxin Hou</strong>, Bo Han, Yuheng Jia, Hui Liu, Junhui Hou.
-    </div>
+</div>
+
+<div class="pub-container">
+  <img src="./images/CPG.png">
+  <div>
+    <strong style="color:#00308B;">[NeurIPS 2025]</strong>  
+    <strong>Keep It on a Leash: Controllable Pseudo-label Generation Towards Long-Tailed SSL</strong><br>
+    <strong style="color:#4B0082;">Yaxin Hou</strong>, Bo Han, Yuheng Jia, Hui Liu, Junhui Hou.
   </div>
-  
-  <div class="publication-container">
-    <img src="./images/Meta-Expert.png" alt="Publication Image">
-    <div>
-      <span style="color: #00308B; font-weight: bold">[ICML 2025]</span> A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning.
-      <br>
-      <strong style="color:#4B0082;">Yaxin Hou</strong>, Yuheng Jia.
-    </div>
+</div>
+
+<div class="pub-container">
+  <img src="./images/Meta-Expert.png">
+  <div>
+    <strong style="color:#00308B;">[ICML 2025]</strong>  
+    <strong>Meta-Expert for Long-Tailed Semi-Supervised Learning</strong><br>
+    <strong style="color:#4B0082;">Yaxin Hou</strong>, Yuheng Jia.
   </div>
-  
-  <div class="publication-container">
-    <img src="./images/QAST.png" alt="Publication Image">
-    <div>
-      <span style="color: #00308B; font-weight: bold">[AAAI 2023]</span> Quality-Aware Self-Training on Differentiable Synthesis of Rare Relational Data.
-      <br>
-      Chongsheng Zhang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Ke Chen, Shuang Cao, Gaojuan Fan, Ji Liu.
-    </div>
+</div>
+
+<div class="pub-container">
+  <img src="./images/QAST.png">
+  <div>
+    <strong style="color:#00308B;">[AAAI 2023]</strong>  
+    <strong>Quality-Aware Self-Training on Differentiable Synthesis of Rare Relational Data</strong><br>
+    Chongsheng Zhang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Ke Chen, Shuang Cao, Gaojuan Fan, Ji Liu.
   </div>
+</div>
 
-  <li><strong>Journal Papers</strong></li>
+### **Journal Papers**
 
-  <style>
-    .publication-container {
-      clear: both;
-      margin-bottom: 2em;
-      font-size:0.8em
-    }
-  
-    .publication-container img {
-      float: left;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      max-width: 240px;
-      max-height: 150px;
-    }
-  </style>
-  
-  <div class="publication-container">
-    <img src="./images/imFTP.png" alt="Publication Image">
-    <div>
-      <span style="color: #00308B; font-weight: bold">[Inf. Sci. 2024]</span> imFTP: Deep imbalance learning via fuzzy transition and prototypical learning.
-      <br>
-      <strong style="color:#4B0082;">Yaxin Hou</strong>, Weiping Ding, Chongsheng Zhang.
-    </div>
+<div class="pub-container">
+  <img src="./images/imFTP.png">
+  <div>
+    <strong style="color:#00308B;">[Information Sciences 2024]</strong><br>
+    <strong>imFTP: Deep imbalance learning via fuzzy transition and prototypical learning</strong><br>
+    <strong style="color:#4B0082;">Yaxin Hou</strong>, Weiping Ding, Chongsheng Zhang.
   </div>
+</div>
 
-</ul>
+<hr class="custom"/>
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
+## 👨‍💻 Professional Services
 
-### 👨‍💻Professional Services
+- **Conference Reviewer / PC Member**
+  - CVPR 2026
+  - NeurIPS 2025
+  - MLMC 2025
 
-<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
+- **Journal Reviewer**
+  - International Journal of Machine Learning and Cybernetics (IJMLC)
 
-  <li><strong>Conference Reviewer/Program Committee Member</strong></li>
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
-    <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
-    <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
-    <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
-  </ul>
+<hr class="custom"/>
 
-  <li><strong>Journal Reviewer</strong></li>
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
-    <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
-  </ul>
+## 🏆 Honors / Awards
 
-</ul>
+- **Scholarships**
+  - National Scholarship (2025)
+  - Master's Degree Academic Scholarship (2020)
+  - National Encouragement Scholarship (2019)
+  - National Encouragement Scholarship (2017)
 
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
+- **Honors**
+  - Outstanding Postgraduate (2023)
+  - Outstanding Graduate (2020)
+  - Merit Student (2020)
+  - First Prize, CUMCM Henan Division (2018)
 
-### 🏆Honors/Awards
+<hr class="custom"/>
 
-<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
+## 📧 Contact
 
-  <li><strong>Scholarship</strong></li>
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
-    <li>National Scholarship (2025, The Chinese Ministry of Education).</li>
-    <li>Master's Degree Academic Scholarship (2020, The Henan Department of Education).</li>
-    <li>National Encouragement Scholarship (2019, The Henan Department of Education).</li>
-    <li>National Encouragement Scholarship (2017, The Henan Department of Education).</li>
-  </ul>
+<span style="font-size:0.85em;">Room 1009, Liberal Arts Building, School of Computer Science and Engineering.</span>
 
-  <li><strong>Honor</strong></li>
-  <ul style="margin-top: 0.1em; margin-bottom: 0.1em; padding-left: 1em; font-family:Arial; font-size:0.9em;">
-    <li>Outstanding Postgraduate (2023, Henan University).</li>
-    <li>Outstanding Graduate (2020, The Henan Department of Education).</li>
-    <li>Merit Student (2020, The Henan Department of Education).</li>
-    <li>First Prize in Henan Province of the China Undergraduate Mathematical Contest in Modeling (2018, The China Society for Industrial and Applied Mathematics).</li>
-  </ul>
-
-</ul>
-
-<hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
-
-### 📧Contact
-
-<span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Room 1009, Liberal Arts Building. School of Computer Science and Engineering. </span>
-
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
-  <div style="width: 100%; max-width: 300px; text-align: center;">
-    <div style="width: 100%; max-height: 300px; overflow: hidden; border-radius: 8px;">
-      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=4D0h1VqEfuXzDioG4SfurpFAjXyS5BKdHFuIwYdKIHE&cl=ffffff&w=a"></script>
+<div style="display:flex;justify-content:center;margin:20px 0;">
+  <div style="width:100%;max-width:300px;text-align:center;">
+    <div style="overflow:hidden;border-radius:8px;">
+      <script id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=4D0h1VqEfuXzDioG4SfurpFAjXyS5BKdHFuIwYdKIHE&cl=ffffff&w=a"></script>
     </div>
   </div>
 </div>
