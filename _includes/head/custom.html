@@ -17,43 +17,35 @@
 <!-- end custom head snippets -->
 
 <style>
-  .sidebar,
-  .page__sidebar {
-    position: fixed !important;
-    left: 0;
-    top: 0;
-    height: 100%;
-    overflow-y: auto;
-    width: 280px;
-    z-index: 1000;
+  .wrapper {
+    max-width: 100% !important;
   }
 
   .page,
-  .page-content,
   .page__inner-wrap {
-    margin-left: 300px !important;
-    max-width: 1200px !important;
-    width: calc(100% - 300px) !important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
-  .wrapper, .container {
-    max-width: none !important;
-    width: 100% !important;
-  }
-
-  @media (max-width: 800px) {
-    .sidebar,
-    .page__sidebar {
-      position: static !important;
-      width: 100% !important;
-      height: auto !important;
-    }
-
+  @media (min-width: 1000px) {
     .page,
-    .page-content,
+    .page__inner-wrap {
+      margin-left: 300px !important;
+    }
+  }
+
+  .sidebar {
+    width: 260px;
+  }
+
+  @media (max-width: 999px) {
+    .page,
     .page__inner-wrap {
       margin-left: 0 !important;
-      width: 100% !important;
+      max-width: 100% !important;
     }
   }
 </style>
+
