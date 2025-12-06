@@ -47,7 +47,7 @@ redirect_from:
   .news-box {
     max-height: 300px;
     overflow-y: auto;
-    border-left: 4px solid #4B0082;
+    border-left: 4px solid #f0eaff;
     padding: 16px 20px;
     border-radius: 12px;
     background: #f9f9fc;
