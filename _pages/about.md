@@ -58,7 +58,7 @@ redirect_from:
 
   .news-item {
     padding: 10px 12px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
     border-radius: 8px;
     transition: background 0.25s;
   }
