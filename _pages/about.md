@@ -29,86 +29,90 @@ redirect_from:
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Papers are listed below, in descending order by year of submission before they are published, or year of publication. Generally, the codes of all the papers will be available. For the full list, please refer to <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">my google scholar page</a>. </span>
 
-<span style="font-size:0.9em; font-weight: bold">Conference Papers</span>
+<ul style="margin-top: 0.1em; margin-bottom: 0.1em; font-family:Arial; font-size:0.9em;">
 
-<style>
-  .publication-container {
-    clear: both;
-    margin-bottom: 2em;
-    font-size:0.8em
-  }
+  <li><strong>Conference Papers</strong></li>
 
-  .publication-container img {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    max-width: 240px;
-    max-height: 150px;
-  }
-</style>
-
-<div class="publication-container">
-  <img src="./images/DiCaP.png" alt="Publication Image">
-  <div>
-    <span style="color: #00308B; font-weight: bold">[AAAI 2026]</span> DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning.
-    <br>
-    Bo Han, Zhuoming Li, Xiaoyu Wang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Hui Liu, Junhui Hou, Yuheng Jia.
+  <style>
+    .publication-container {
+      clear: both;
+      margin-bottom: 2em;
+      font-size:0.8em
+    }
+  
+    .publication-container img {
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      max-width: 240px;
+      max-height: 150px;
+    }
+  </style>
+  
+  <div class="publication-container">
+    <img src="./images/DiCaP.png" alt="Publication Image">
+    <div>
+      <span style="color: #00308B; font-weight: bold">[AAAI 2026]</span> DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning.
+      <br>
+      Bo Han, Zhuoming Li, Xiaoyu Wang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Hui Liu, Junhui Hou, Yuheng Jia.
+    </div>
   </div>
-</div>
-
-<div class="publication-container">
-  <img src="./images/CPG.png" alt="Publication Image">
-  <div>
-    <span style="color: #00308B; font-weight: bold">[NeurIPS 2025]</span> Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning.
-    <br>
-    <strong style="color:#4B0082;">Yaxin Hou</strong>, Bo Han, Yuheng Jia, Hui Liu, Junhui Hou.
+  
+  <div class="publication-container">
+    <img src="./images/CPG.png" alt="Publication Image">
+    <div>
+      <span style="color: #00308B; font-weight: bold">[NeurIPS 2025]</span> Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning.
+      <br>
+      <strong style="color:#4B0082;">Yaxin Hou</strong>, Bo Han, Yuheng Jia, Hui Liu, Junhui Hou.
+    </div>
   </div>
-</div>
-
-<div class="publication-container">
-  <img src="./images/Meta-Expert.png" alt="Publication Image">
-  <div>
-    <span style="color: #00308B; font-weight: bold">[ICML 2025]</span> A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning.
-    <br>
-    <strong style="color:#4B0082;">Yaxin Hou</strong>, Yuheng Jia.
+  
+  <div class="publication-container">
+    <img src="./images/Meta-Expert.png" alt="Publication Image">
+    <div>
+      <span style="color: #00308B; font-weight: bold">[ICML 2025]</span> A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning.
+      <br>
+      <strong style="color:#4B0082;">Yaxin Hou</strong>, Yuheng Jia.
+    </div>
   </div>
-</div>
-
-<div class="publication-container">
-  <img src="./images/QAST.png" alt="Publication Image">
-  <div>
-    <span style="color: #00308B; font-weight: bold">[AAAI 2023]</span> Quality-Aware Self-Training on Differentiable Synthesis of Rare Relational Data.
-    <br>
-    Chongsheng Zhang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Ke Chen, Shuang Cao, Gaojuan Fan, Ji Liu.
+  
+  <div class="publication-container">
+    <img src="./images/QAST.png" alt="Publication Image">
+    <div>
+      <span style="color: #00308B; font-weight: bold">[AAAI 2023]</span> Quality-Aware Self-Training on Differentiable Synthesis of Rare Relational Data.
+      <br>
+      Chongsheng Zhang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Ke Chen, Shuang Cao, Gaojuan Fan, Ji Liu.
+    </div>
   </div>
-</div>
 
-<span style="font-size:0.9em; font-weight: bold">Journal Papers</span>
+  <li><strong>Journal Papers</strong></li>
 
-<style>
-  .publication-container {
-    clear: both;
-    margin-bottom: 2em;
-    font-size:0.8em
-  }
-
-  .publication-container img {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    max-width: 240px;
-    max-height: 150px;
-  }
-</style>
-
-<div class="publication-container">
-  <img src="./images/imFTP.png" alt="Publication Image">
-  <div>
-    <span style="color: #00308B; font-weight: bold">[Inf. Sci. 2024]</span> imFTP: Deep imbalance learning via fuzzy transition and prototypical learning.
-    <br>
-    <strong style="color:#4B0082;">Yaxin Hou</strong>, Weiping Ding, Chongsheng Zhang.
+  <style>
+    .publication-container {
+      clear: both;
+      margin-bottom: 2em;
+      font-size:0.8em
+    }
+  
+    .publication-container img {
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      max-width: 240px;
+      max-height: 150px;
+    }
+  </style>
+  
+  <div class="publication-container">
+    <img src="./images/imFTP.png" alt="Publication Image">
+    <div>
+      <span style="color: #00308B; font-weight: bold">[Inf. Sci. 2024]</span> imFTP: Deep imbalance learning via fuzzy transition and prototypical learning.
+      <br>
+      <strong style="color:#4B0082;">Yaxin Hou</strong>, Weiping Ding, Chongsheng Zhang.
+    </div>
   </div>
-</div>
+
+</ul>
 
 <hr style="clear: both; border: none; border-top: 2px dashed #bbb; margin: 2.5em 0;" />
 
