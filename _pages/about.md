@@ -102,17 +102,17 @@ redirect_from:
   }
 
   .map-container {
-    display:flex; 
-    justify-content:center; 
-    margin:25px 0;
+    display: flex; 
+    justify-content: center; 
+    margin: 25px 0;
   }
 
   .map-box {
-    width:100%; 
-    max-width:320px; 
-    text-align:center;
-    border-radius:10px;
-    overflow:hidden;
+    width: 100%; 
+    max-width: 320px; 
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
     box-shadow: 0 3px 10px rgba(0,0,0,0.12);
   }
 
@@ -149,7 +149,7 @@ redirect_from:
     .publication-container {
       clear: both;
       margin-bottom: 2em;
-      font-size:0.8em
+      font-size: 0.8em
     }
   
     .publication-container img {
@@ -159,6 +159,7 @@ redirect_from:
       max-width: 240px;
       max-height: 150px;
     }
+    
   </style>
   
   <div class="publication-container">
@@ -203,7 +204,7 @@ redirect_from:
     .publication-container {
       clear: both;
       margin-bottom: 2em;
-      font-size:0.8em
+      font-size: 0.8em
     }
   
     .publication-container img {
