@@ -182,7 +182,7 @@ redirect_from:
   
   <div class="publication-container">
     <div class="pub-img-wrapper">
-      <div class="paper-badge">VENUE YEAR</div>
+      <div class="paper-badge">CCF A</div>
       <img src="./images/DiCaP.png" alt="Publication Image">
     </div>
     <div>
@@ -193,7 +193,10 @@ redirect_from:
   </div>
   
   <div class="publication-container">
-    <img src="./images/CPG.png" alt="Publication Image">
+    <div class="pub-img-wrapper">
+      <div class="paper-badge">CCF A</div>
+      <img src="./images/CPG.png" alt="Publication Image">
+    </div>
     <div>
       <span style="color: #00308B; font-weight: bold">[NeurIPS 2025]</span> Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning.
       <br>
@@ -202,7 +205,10 @@ redirect_from:
   </div>
   
   <div class="publication-container">
-    <img src="./images/Meta-Expert.png" alt="Publication Image">
+    <div class="pub-img-wrapper">
+      <div class="paper-badge">CCF A</div>
+      <img src="./images/Meta-Expert.png" alt="Publication Image">
+    </div>
     <div>
       <span style="color: #00308B; font-weight: bold">[ICML 2025]</span> A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning.
       <br>
@@ -211,7 +217,10 @@ redirect_from:
   </div>
   
   <div class="publication-container">
-    <img src="./images/QAST.png" alt="Publication Image">
+    <div class="pub-img-wrapper">
+      <div class="paper-badge">CCF A</div>
+      <img src="./images/QAST.png" alt="Publication Image">
+    </div>
     <div>
       <span style="color: #00308B; font-weight: bold">[AAAI 2023]</span> Quality-Aware Self-Training on Differentiable Synthesis of Rare Relational Data.
       <br>
@@ -238,7 +247,10 @@ redirect_from:
   </style>
   
   <div class="publication-container">
-    <img src="./images/imFTP.png" alt="Publication Image">
+    <div class="pub-img-wrapper">
+      <div class="paper-badge">CCF B</div>
+      <img src="./images/imFTP.png" alt="Publication Image">
+    </div>
     <div>
       <span style="color: #00308B; font-weight: bold">[Inf. Sci. 2024]</span> imFTP: Deep imbalance learning via fuzzy transition and prototypical learning.
       <br>
