@@ -162,15 +162,16 @@ redirect_from:
 
     .paper-badge {
       position: absolute;
-      top: 8px;
-      left: 8px;
+      top: 6px;
+      left: 6px;
       background: #00308B;
       color: #fff;
-      padding: 3px 8px;
-      font-size: 0.75em;
+      padding: 2px 6px;
+      font-size: 0.70em;
       font-weight: bold;
-      border-radius: 6px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      line-height: 1.0;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
     }
 
     .pub-img-wrapper {
