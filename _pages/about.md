@@ -160,23 +160,21 @@ redirect_from:
       max-height: 150px;
     }
 
-    .paper-badge {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    background: #4B0082;
-    color: #fff;
-    padding: 3px 8px;
-    font-size: 0.75em;
-    font-weight: bold;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  }
+    .badge {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      position: absolute;
+      margin-top: .5em;
+      margin-left: -.5em;
+      color: white;
+      background-color: #00369f;
+      font-size: .8em;
+    }
 
-  .pub-img-wrapper {
-    position: relative;
-    display: inline-block;
-  }
+    .pub-img-wrapper {
+      position: relative;
+      display: inline-block;
+    }
   </style>
   
   <div class="publication-container">
