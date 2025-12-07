@@ -160,15 +160,17 @@ redirect_from:
       max-height: 150px;
     }
 
-    .badge {
-      padding-left: 1rem;
-      padding-right: 1rem;
+    .paper-badge {
       position: absolute;
-      margin-top: .5em;
-      margin-left: -.5em;
-      color: white;
-      background-color: #00369f;
-      font-size: .8em;
+      top: 8px;
+      left: 8px;
+      background: #00308B;
+      color: #fff;
+      padding: 3px 8px;
+      font-size: 0.75em;
+      font-weight: bold;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
 
     .pub-img-wrapper {
