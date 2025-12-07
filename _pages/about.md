@@ -166,7 +166,7 @@ redirect_from:
       left: 6px;
       background: #00308B;
       color: #fff;
-      padding: 2px 6px;
+      padding: 2.5px 6px;
       font-size: 0.70em;
       font-weight: bold;
       line-height: 1.0;
