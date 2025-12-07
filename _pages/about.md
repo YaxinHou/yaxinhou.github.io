@@ -159,11 +159,31 @@ redirect_from:
       max-width: 240px;
       max-height: 150px;
     }
-    
+
+    .paper-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #4B0082;
+    color: #fff;
+    padding: 3px 8px;
+    font-size: 0.75em;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+
+  .pub-img-wrapper {
+    position: relative;
+    display: inline-block;
+  }
   </style>
   
   <div class="publication-container">
-    <img src="./images/DiCaP.png" alt="Publication Image">
+    <div class="pub-img-wrapper">
+      <div class="paper-badge">VENUE YEAR</div>
+      <img src="./images/DiCaP.png" alt="Publication Image">
+    </div>
     <div>
       <span style="color: #00308B; font-weight: bold">[AAAI 2026]</span> DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning.
       <br>
