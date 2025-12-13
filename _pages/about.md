@@ -132,14 +132,14 @@ redirect_from:
     flex: 1;
     display: grid; 
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 2px;
     align-items: center; 
     justify-items: center;
   }
 
   .profile-logos a:nth-child(1) {
     grid-column: 1 / -1;
-    margin-bottom: 2.5px;
+    margin-bottom: 1px;
   }
 
   .profile-logos img {
