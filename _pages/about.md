@@ -179,6 +179,7 @@ redirect_from:
 
 
 ### 🔥News
+
 <div class="news-box">
 <span style="font-family:Arial; font-size:0.8em;">
 <div class="news-item"> 🎉 <span style="color:#4B0082;"><strong>[2025.11]</strong></span> Our work "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning" is accepted by AAAI 2026! <a href="https://arxiv.org/abs/2511.20225" style="color:#00308B;">Paper</a> <a href="https://github.com/hb-studying/DiCaP">Codes</a><br></div>
