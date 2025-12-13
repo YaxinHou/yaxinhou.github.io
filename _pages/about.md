@@ -116,14 +116,66 @@ redirect_from:
     box-shadow: 0 3px 10px rgba(0,0,0,0.12);
   }
 
+  .profile-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+
+  .profile-content {
+    flex: 2;
+    width: 66%;
+  }
+
+  .profile-logos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-logos img {
+    max-width: 80%;
+    max-height: 80px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.2s;
+  }
+
+  .profile-logos img:hover {
+    transform: scale(1.05);
+  }
+
   .greedy-nav button {
   display: none !important;
   }
 </style>
 
+
 ### 👨‍🎓Profile
 
-<span style="font-family:Arial; font-size:0.8em; text-align:justify;"> I am currently a Ph.D. student at Southeast University, under the supervision of [<span style="color:#4B0082;"><strong>Assoc. Prof. Yuheng Jia</strong></span>](https://jyh-learning.github.io). I received my M.S. degree from Henan University in 2023, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhang</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Before that, I obtained my Bachelor’s degree in 2020 from Henan Institute of Engineering. My research interests lie in machine learning, with a focus on long-tailed learning and weakly supervised learning. </span>
+<div class="profile-wrapper">
+  <div class="profile-content">
+  <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> I am currently a Ph.D. student at Southeast University, under the supervision of [<span style="color:#4B0082;"><strong>Assoc. Prof. Yuheng Jia</strong></span>](https://jyh-learning.github.io). I received my M.S. degree from Henan University in 2023, under the supervision of [<span style="color:#4B0082;"><strong>Prof. Chongsheng Zhang</strong></span>](https://cs.henu.edu.cn/info/1273/5566.htm). Before that, I obtained my Bachelor’s degree in 2020 from Henan Institute of Engineering. My research interests lie in machine learning, with a focus on long-tailed learning and weakly supervised learning. </span>
+  </div>
+
+  <div class="profile-logos">
+    <a href="https://www.seu.edu.cn" target="_blank">
+      <img src="./images/SEU.svg" alt="Southeast University" title="Southeast University">
+    </a>
+
+    <a href="https://cse.seu.edu.cn" target="_blank">
+      <img src="./images/CS.png" alt="School of Computer Science and Engineering" title="School of Computer Science and Engineering">
+    </a>
+
+    <a href="#" target="_blank">
+      <img src="./images/PALM.png" alt="Lab Logo" title="Research Lab">
+    </a>
+  </div>
+</div>
 
 
 ### 🔥News
@@ -151,7 +203,7 @@ redirect_from:
       margin-bottom: 2em;
       font-size: 0.8em
     }
-  
+
     .publication-container img {
       float: left;
       margin-right: 10px;
@@ -179,7 +231,7 @@ redirect_from:
       display: inline-block;
     }
   </style>
-  
+
   <div class="publication-container">
     <div class="pub-img-wrapper">
       <div class="paper-badge">CCF A</div>
@@ -191,7 +243,7 @@ redirect_from:
       Bo Han, Zhuoming Li, Xiaoyu Wang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Hui Liu, Junhui Hou, Yuheng Jia.
     </div>
   </div>
-  
+
   <div class="publication-container">
     <div class="pub-img-wrapper">
       <div class="paper-badge">CCF A</div>
@@ -203,7 +255,7 @@ redirect_from:
       <strong style="color:#4B0082;">Yaxin Hou</strong>, Bo Han, Yuheng Jia, Hui Liu, Junhui Hou.
     </div>
   </div>
-  
+
   <div class="publication-container">
     <div class="pub-img-wrapper">
       <div class="paper-badge">CCF A</div>
@@ -215,7 +267,7 @@ redirect_from:
       <strong style="color:#4B0082;">Yaxin Hou</strong>, Yuheng Jia.
     </div>
   </div>
-  
+
   <div class="publication-container">
     <div class="pub-img-wrapper">
       <div class="paper-badge">CCF A</div>
@@ -236,7 +288,7 @@ redirect_from:
       margin-bottom: 2em;
       font-size: 0.8em
     }
-  
+
     .publication-container img {
       float: left;
       margin-right: 10px;
@@ -245,7 +297,7 @@ redirect_from:
       max-height: 150px;
     }
   </style>
-  
+
   <div class="publication-container">
     <div class="pub-img-wrapper">
       <div class="paper-badge">CCF B</div>
