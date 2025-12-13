@@ -119,34 +119,35 @@ redirect_from:
   .profile-wrapper {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     margin-bottom: 20px;
   }
 
   .profile-content {
-    flex: 3;
-    width: 75%;
+    flex: 2;
+    width: 66%;
   }
 
   .profile-logos {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 15px;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
 
   .profile-logos img {
-    max-width: 80%;
-    max-height: 80px;
+    max-width: 70px; 
+    max-height: 70px;
     width: auto;
     object-fit: contain;
     transition: transform 0.2s;
   }
 
   .profile-logos img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
 
   .greedy-nav button {
