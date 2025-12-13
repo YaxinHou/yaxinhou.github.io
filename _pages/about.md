@@ -119,7 +119,7 @@ redirect_from:
   .profile-wrapper {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     margin-bottom: 20px;
   }
 
