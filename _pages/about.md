@@ -171,8 +171,8 @@ redirect_from:
       <img src="./images/CS.png" alt="School of Computer Science and Engineering" title="School of Computer Science and Engineering">
     </a>
 
-    <a href="#" target="_blank">
-      <img src="./images/PALM.png" alt="Lab Logo" title="Research Lab">
+    <a href="https://www.palmlab.cn" target="_blank">
+      <img src="./images/PALM.png" alt="Pattern Learning and Mining Lab" title="Pattern Learning and Mining Lab">
     </a>
   </div>
 </div>
