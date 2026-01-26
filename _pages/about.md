@@ -188,6 +188,7 @@ redirect_from:
 
 <div class="news-box">
 <span style="font-family:Arial; font-size:0.8em;">
+<div class="news-item"> 🎉 <span style="color:#4B0082;"><strong>[2025.11]</strong></span> Our work "Samples Are Not Equal: A Sample Selection Approach for Deep Clustering" is accepted by ICLR 2026! <a href="" style="color:#00308B;">Paper</a> <a href="">Codes</a><br></div>
 <div class="news-item"> 🎉 <span style="color:#4B0082;"><strong>[2025.11]</strong></span> Our work "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning" is accepted by AAAI 2026! <a href="https://arxiv.org/abs/2511.20225" style="color:#00308B;">Paper</a> <a href="https://github.com/hb-studying/DiCaP">Codes</a><br></div>
 <div class="news-item"> 🎉 <span style="color:#4B0082;"><strong>[2025.10]</strong></span> Win National Scholarship for Ph.D. Student!<br></div>
 <div class="news-item"> 🎉 <span style="color:#4B0082;"><strong>[2025.09]</strong></span> Our work "Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning" is accepted by NeurIPS 2025! <a href="https://arxiv.org/abs/2510.03993" style="color:#00308B;">Paper</a> <a href="https://github.com/YaxinHou/CPG">Codes</a><br></div>
