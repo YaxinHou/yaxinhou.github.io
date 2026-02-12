@@ -143,8 +143,8 @@ redirect_from:
   }
 
   .profile-logos img {
-    max-width: 90px;
-    max-height: 90px;
+    max-width: 70px;
+    max-height: 70px;
     width: auto;
     object-fit: contain;
     transition: transform 0.2s;
