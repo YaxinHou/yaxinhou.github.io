@@ -125,7 +125,7 @@ redirect_from:
 
   .profile-content {
     flex: 2;
-    width: 72%;
+    width: 66%;
   }
 
   .profile-logos {
