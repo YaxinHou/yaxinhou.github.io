@@ -331,7 +331,7 @@ redirect_from:
     <li>The European Conferenceon Computer Vision (ECCV), 2026.</li>
     <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
     <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
-    <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025.</li>
+    <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025-2026.</li>
   </ul>
 
   <li><strong>Journal Reviewer</strong></li>
