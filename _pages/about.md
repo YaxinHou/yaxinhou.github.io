@@ -243,18 +243,6 @@ redirect_from:
   <div class="publication-container">
     <div class="pub-img-wrapper">
       <div class="paper-badge">CCF A</div>
-      <img src="./images/DiCaP.png" alt="Publication Image">
-    </div>
-    <div>
-      <span style="color: #00308B; font-weight: bold">[AAAI 2026]</span> DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning.
-      <br>
-      Bo Han, Zhuoming Li, Xiaoyu Wang, <strong style="color:#4B0082;">Yaxin Hou</strong>, Hui Liu, Junhui Hou, Yuheng Jia.
-    </div>
-  </div>
-
-  <div class="publication-container">
-    <div class="pub-img-wrapper">
-      <div class="paper-badge">CCF A</div>
       <img src="./images/CPG.png" alt="Publication Image">
     </div>
     <div>
