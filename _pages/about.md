@@ -315,7 +315,7 @@ A brief overview of my publications by venue, including accepted and published p
     ],
     series: [
       {
-        name: 'Conference Papers',
+        name: '',
         type: 'pie',
         radius: ['46%', '66%'],
         center: ['50%', '62%'],
@@ -354,7 +354,7 @@ A brief overview of my publications by venue, including accepted and published p
 
   const journalOption = {
     title: {
-      text: 'Journal Papers',
+      text: '',
       left: 'center',
       top: 38,
       textStyle: {
