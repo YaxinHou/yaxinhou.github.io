@@ -166,7 +166,7 @@ redirect_from:
   margin-top: 1em;
   }
 
- .pie-card {
+  .pie-card {
   background: #fafafa;
   border: 1px solid #eeeeee;
   border-radius: 14px;
@@ -244,10 +244,22 @@ A brief overview of my publications by venue, including accepted and published p
   const conferenceChart = echarts.init(document.getElementById('conference-chart'));
   const journalChart = echarts.init(document.getElementById('journal-chart'));
 
-  const commonTextStyle = {
-    fontFamily: 'Arial, sans-serif',
-    color: '#333'
-  };
+  const conferenceData = [
+    { value: 1, name: 'ICLR' },
+    { value: 1, name: 'NeurIPS' },
+    { value: 1, name: 'ICML' },
+    { value: 2, name: 'AAAI' }
+  ];
+
+  const journalData = [
+    { value: 1, name: 'Inf. Sci.' }
+  ];
+
+  const conferenceTotal = conferenceData.reduce((sum, item) => sum + item.value, 0);
+  const journalTotal = journalData.reduce((sum, item) => sum + item.value, 0);
+
+  const mutedColorsConference = ['#6E6AA7', '#8B86C9', '#A7A3D8', '#C3C0E8'];
+  const mutedColorsJournal = ['#7D84B2', '#A9B4C2', '#C7D3DD', '#DCE2EA'];
 
   const conferenceOption = {
     title: {
@@ -264,8 +276,8 @@ A brief overview of my publications by venue, including accepted and published p
     tooltip: {
       trigger: 'item',
       formatter: '{b}: {c} ({d}%)',
-      backgroundColor: 'rgba(255,255,255,0.96)',
-      borderColor: '#ddd',
+      backgroundColor: 'rgba(255,255,255,0.97)',
+      borderColor: '#e5e5e5',
       borderWidth: 1,
       textStyle: {
         color: '#222',
@@ -274,7 +286,7 @@ A brief overview of my publications by venue, including accepted and published p
     },
     legend: {
       orient: 'vertical',
-      left: 'left',
+      left: '8%',
       top: 'middle',
       textStyle: {
         color: '#444',
@@ -282,43 +294,60 @@ A brief overview of my publications by venue, including accepted and published p
         fontFamily: 'Arial, sans-serif'
       },
       itemWidth: 12,
-      itemHeight: 12
+      itemHeight: 12,
+      icon: 'circle'
     },
+    graphic: [
+      {
+        type: 'text',
+        left: '62%',
+        top: '47%',
+        style: {
+          text: String(conferenceTotal),
+          textAlign: 'center',
+          fill: '#2f2f3a',
+          fontSize: 28,
+          fontWeight: 700,
+          fontFamily: 'Arial, sans-serif'
+        }
+      },
+      {
+        type: 'text',
+        left: '59.8%',
+        top: '57%',
+        style: {
+          text: 'Total',
+          textAlign: 'center',
+          fill: '#7a7a88',
+          fontSize: 12,
+          fontWeight: 500,
+          fontFamily: 'Arial, sans-serif'
+        }
+      }
+    ],
     series: [
       {
         name: 'Conference Papers',
         type: 'pie',
-        radius: ['42%', '68%'],
-        center: ['62%', '56%'],
+        radius: ['48%', '68%'],
+        center: ['65%', '56%'],
         avoidLabelOverlap: true,
         itemStyle: {
-          borderColor: '#ffffff',
-          borderWidth: 2,
-          borderRadius: 6
+          borderColor: '#fafafa',
+          borderWidth: 3
         },
         label: {
-          show: true,
-          formatter: '{c}',
-          fontSize: 13,
-          fontWeight: 'bold',
-          color: '#333',
-          fontFamily: 'Arial, sans-serif'
+          show: false
         },
         labelLine: {
-          length: 10,
-          length2: 8
+          show: false
         },
         emphasis: {
           scale: true,
-          scaleSize: 6
+          scaleSize: 4
         },
-        data: [
-          { value: 1, name: 'ICLR' },
-          { value: 1, name: 'NeurIPS' },
-          { value: 1, name: 'ICML' },
-          { value: 2, name: 'AAAI' }
-        ],
-        color: ['#4B0082', '#6A5ACD', '#7B68EE', '#9A8CFF']
+        data: conferenceData,
+        color: mutedColorsConference
       }
     ]
   };
@@ -338,8 +367,8 @@ A brief overview of my publications by venue, including accepted and published p
     tooltip: {
       trigger: 'item',
       formatter: '{b}: {c} ({d}%)',
-      backgroundColor: 'rgba(255,255,255,0.96)',
-      borderColor: '#ddd',
+      backgroundColor: 'rgba(255,255,255,0.97)',
+      borderColor: '#e5e5e5',
       borderWidth: 1,
       textStyle: {
         color: '#222',
@@ -348,7 +377,7 @@ A brief overview of my publications by venue, including accepted and published p
     },
     legend: {
       orient: 'vertical',
-      left: 'left',
+      left: '8%',
       top: 'middle',
       textStyle: {
         color: '#444',
@@ -356,40 +385,60 @@ A brief overview of my publications by venue, including accepted and published p
         fontFamily: 'Arial, sans-serif'
       },
       itemWidth: 12,
-      itemHeight: 12
+      itemHeight: 12,
+      icon: 'circle'
     },
+    graphic: [
+      {
+        type: 'text',
+        left: '62%',
+        top: '47%',
+        style: {
+          text: String(journalTotal),
+          textAlign: 'center',
+          fill: '#2f2f3a',
+          fontSize: 28,
+          fontWeight: 700,
+          fontFamily: 'Arial, sans-serif'
+        }
+      },
+      {
+        type: 'text',
+        left: '59.8%',
+        top: '57%',
+        style: {
+          text: 'Total',
+          textAlign: 'center',
+          fill: '#7a7a88',
+          fontSize: 12,
+          fontWeight: 500,
+          fontFamily: 'Arial, sans-serif'
+        }
+      }
+    ],
     series: [
       {
         name: 'Journal Papers',
         type: 'pie',
-        radius: ['42%', '68%'],
-        center: ['62%', '56%'],
+        radius: ['48%', '68%'],
+        center: ['65%', '56%'],
         avoidLabelOverlap: true,
         itemStyle: {
-          borderColor: '#ffffff',
-          borderWidth: 2,
-          borderRadius: 6
+          borderColor: '#fafafa',
+          borderWidth: 3
         },
         label: {
-          show: true,
-          formatter: '{c}',
-          fontSize: 13,
-          fontWeight: 'bold',
-          color: '#333',
-          fontFamily: 'Arial, sans-serif'
+          show: false
         },
         labelLine: {
-          length: 10,
-          length2: 8
+          show: false
         },
         emphasis: {
           scale: true,
-          scaleSize: 6
+          scaleSize: 4
         },
-        data: [
-          { value: 1, name: 'Inf. Sci.' }
-        ],
-        color: ['#7A6FF0']
+        data: journalData,
+        color: mutedColorsJournal
       }
     ]
   };
