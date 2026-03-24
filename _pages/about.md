@@ -255,11 +255,14 @@ A brief overview of my publications by venue, including accepted and published p
     { value: 1, name: 'Inf. Sci.' }
   ];
 
+  const conferenceTotal = conferenceData.reduce((sum, item) => sum + item.value, 0);
+  const journalTotal = journalData.reduce((sum, item) => sum + item.value, 0);
+
   const mutedColorsConference = ['#6E6AA7', '#8B86C9', '#A7A3D8', '#C3C0E8'];
   const mutedColorsJournal = ['#7D84B2', '#A9B4C2', '#C7D3DD', '#DCE2EA'];
 
   const commonLegend = {
-    top: 8,
+    top: 20,
     left: 'center',
     orient: 'horizontal',
     itemWidth: 12,
@@ -284,6 +287,39 @@ A brief overview of my publications by venue, including accepted and published p
     }
   };
 
+  const commonSeriesStyle = {
+    type: 'pie',
+    radius: ['48%', '67%'],
+    center: ['50%', '57%'],
+    avoidLabelOverlap: true,
+    minShowLabelAngle: 8,
+    itemStyle: {
+      borderColor: '#fafafa',
+      borderWidth: 3
+    },
+    label: {
+      show: true,
+      position: 'outside',
+      formatter: '{b}: {c}',
+      color: '#555',
+      fontSize: 12,
+      fontWeight: 600,
+      fontFamily: 'Arial, sans-serif'
+    },
+    labelLine: {
+      show: true,
+      length: 8,
+      length2: 6,
+      lineStyle: {
+        color: '#b8b8c6'
+      }
+    },
+    emphasis: {
+      scale: true,
+      scaleSize: 4
+    }
+  };
+
   const conferenceOption = {
     tooltip: commonTooltip,
     legend: commonLegend,
@@ -291,12 +327,25 @@ A brief overview of my publications by venue, including accepted and published p
       {
         type: 'text',
         left: 'center',
-        top: '55.5%',
+        top: '49.5%',
         style: {
           text: 'Conference',
           textAlign: 'center',
+          fill: '#6b6b78',
+          fontSize: 14,
+          fontWeight: 600,
+          fontFamily: 'Arial, sans-serif'
+        }
+      },
+      {
+        type: 'text',
+        left: 'center',
+        top: '56.5%',
+        style: {
+          text: String(conferenceTotal),
+          textAlign: 'center',
           fill: '#2f2f3a',
-          fontSize: 18,
+          fontSize: 24,
           fontWeight: 700,
           fontFamily: 'Arial, sans-serif'
         }
@@ -304,37 +353,8 @@ A brief overview of my publications by venue, including accepted and published p
     ],
     series: [
       {
+        ...commonSeriesStyle,
         name: 'Conference Papers',
-        type: 'pie',
-        radius: ['46%', '66%'],
-        center: ['50%', '62%'],
-        avoidLabelOverlap: true,
-        minShowLabelAngle: 8,
-        itemStyle: {
-          borderColor: '#fafafa',
-          borderWidth: 3
-        },
-        label: {
-          show: true,
-          position: 'outside',
-          formatter: '{b}: {c}',
-          color: '#555',
-          fontSize: 12,
-          fontWeight: 600,
-          fontFamily: 'Arial, sans-serif'
-        },
-        labelLine: {
-          show: true,
-          length: 8,
-          length2: 6,
-          lineStyle: {
-            color: '#b8b8c6'
-          }
-        },
-        emphasis: {
-          scale: true,
-          scaleSize: 4
-        },
         data: conferenceData,
         color: mutedColorsConference
       }
@@ -348,12 +368,25 @@ A brief overview of my publications by venue, including accepted and published p
       {
         type: 'text',
         left: 'center',
-        top: '55.5%',
+        top: '49.5%',
         style: {
           text: 'Journal',
           textAlign: 'center',
+          fill: '#6b6b78',
+          fontSize: 14,
+          fontWeight: 600,
+          fontFamily: 'Arial, sans-serif'
+        }
+      },
+      {
+        type: 'text',
+        left: 'center',
+        top: '56.5%',
+        style: {
+          text: String(journalTotal),
+          textAlign: 'center',
           fill: '#2f2f3a',
-          fontSize: 18,
+          fontSize: 24,
           fontWeight: 700,
           fontFamily: 'Arial, sans-serif'
         }
@@ -361,36 +394,8 @@ A brief overview of my publications by venue, including accepted and published p
     ],
     series: [
       {
+        ...commonSeriesStyle,
         name: 'Journal Papers',
-        type: 'pie',
-        radius: ['46%', '66%'],
-        center: ['50%', '62%'],
-        avoidLabelOverlap: true,
-        itemStyle: {
-          borderColor: '#fafafa',
-          borderWidth: 3
-        },
-        label: {
-          show: true,
-          position: 'outside',
-          formatter: '{b}: {c}',
-          color: '#555',
-          fontSize: 12,
-          fontWeight: 600,
-          fontFamily: 'Arial, sans-serif'
-        },
-        labelLine: {
-          show: true,
-          length: 8,
-          length2: 6,
-          lineStyle: {
-            color: '#b8b8c6'
-          }
-        },
-        emphasis: {
-          scale: true,
-          scaleSize: 4
-        },
         data: journalData,
         color: mutedColorsJournal
       }
