@@ -197,6 +197,104 @@ redirect_from:
 </div>
 
 
+### 📊Publication Statistics
+
+<span style="font-family:Arial; font-size:0.8em; text-align:justify;">
+  The chart below summarizes my publications by venue, including published and accepted papers listed on this homepage.
+</span>
+
+<div class="card" style="margin-top: 12px;">
+  <div id="pub-chart" style="width: 100%; height: 420px;"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script>
+  var chartDom = document.getElementById('pub-chart');
+  var myChart = echarts.init(chartDom);
+
+  var option = {
+    title: {
+      text: 'Publications by Venue',
+      left: 'center',
+      top: 10,
+      textStyle: {
+        color: '#222',
+        fontSize: 20,
+        fontWeight: 'bold'
+      }
+    },
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: { type: 'shadow' },
+      backgroundColor: 'rgba(30,30,30,0.92)',
+      borderColor: '#6a5acd',
+      borderWidth: 1,
+      textStyle: { color: '#fff' }
+    },
+    grid: {
+      left: '8%',
+      right: '5%',
+      bottom: '12%',
+      top: '22%'
+    },
+    xAxis: {
+      type: 'category',
+      data: ['ICLR', 'NeurIPS', 'ICML', 'AAAI', 'Inf. Sci.'],
+      axisLine: { lineStyle: { color: '#888' } },
+      axisLabel: { color: '#333', fontSize: 13 },
+      axisTick: { show: false }
+    },
+    yAxis: {
+      type: 'value',
+      minInterval: 1,
+      axisLine: { show: false },
+      splitLine: {
+        lineStyle: {
+          type: 'dashed',
+          color: '#ddd'
+        }
+      },
+      axisLabel: { color: '#333' }
+    },
+    series: [{
+      name: 'Papers',
+      type: 'bar',
+      barWidth: '45%',
+      data: [1, 1, 1, 2, 1],
+      label: {
+        show: true,
+        position: 'top',
+        color: '#4B0082',
+        fontWeight: 'bold',
+        fontSize: 14
+      },
+      itemStyle: {
+        borderRadius: [10, 10, 0, 0],
+        shadowBlur: 12,
+        shadowColor: 'rgba(75,0,130,0.25)',
+        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+          { offset: 0, color: '#7B68EE' },
+          { offset: 1, color: '#4B0082' }
+        ])
+      },
+      emphasis: {
+        itemStyle: {
+          shadowBlur: 18,
+          shadowColor: 'rgba(75,0,130,0.45)'
+        }
+      },
+      animationDuration: 1400,
+      animationEasing: 'elasticOut'
+    }]
+  };
+
+  myChart.setOption(option);
+  window.addEventListener('resize', function() {
+    myChart.resize();
+  });
+</script>
+
+
 ### 📝Publications
 
 <span style="font-family:Arial; font-size:0.8em; text-align:justify;"> Papers are listed below, in descending order by year of submission before they are published, or year of publication. Generally, the codes of all the papers will be available. For the full list, please refer to my <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ" style="color:#00308B;">Google Scholar</a> page. </span>
