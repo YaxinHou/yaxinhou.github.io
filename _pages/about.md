@@ -69,7 +69,7 @@ redirect_from:
     display: flex;
     gap: 18px;
     margin-bottom: 2.3em;
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 12px;
     background: #fafafa;
     border-radius: 12px;
@@ -100,7 +100,7 @@ redirect_from:
     background: #00308B;
     color: #fff;
     padding: 2.5px 6px;
-    font-size: 0.70em;
+    font-size: 0.80em;
     font-weight: bold;
     line-height: 1.0;
     border-radius: 4px;
