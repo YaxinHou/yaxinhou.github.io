@@ -362,7 +362,7 @@ redirect_from:
 
   .two-col-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
 
@@ -397,7 +397,7 @@ redirect_from:
   }
 
   .map-shell {
-    margin-top: 1rem;
+    margin: 1rem auto 0;
     border: 1px solid var(--line);
     border-radius: 12px;
     overflow: hidden;
