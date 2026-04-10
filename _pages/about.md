@@ -191,14 +191,17 @@ redirect_from:
     opacity: 0.95;
   }
 
-  .news-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  .news-box {
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background: #fff;
     overflow: hidden;
+  }
+
+  .news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .news-item {
@@ -210,7 +213,7 @@ redirect_from:
     align-items: start;
   }
 
-  .news-item:last-child {
+  .news-list .news-item:last-child {
     border-bottom: none;
   }
 
@@ -223,6 +226,49 @@ redirect_from:
 
   .news-content {
     color: var(--text);
+  }
+
+  .news-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.8rem 1rem;
+    border-top: 1px solid var(--line);
+    background: var(--soft-2);
+  }
+
+  .news-page-info {
+    color: var(--muted);
+    font-size: 0.86rem;
+  }
+
+  .news-pagination-buttons {
+    display: inline-flex;
+    gap: 0.5rem;
+  }
+
+  .news-page-btn {
+    appearance: none;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--text);
+    border-radius: 10px;
+    padding: 0.34rem 0.72rem;
+    font-size: 0.84rem;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+  }
+
+  .news-page-btn:hover:not(:disabled) {
+    background: var(--accent-soft);
+    border-color: #d6e2ef;
+  }
+
+  .news-page-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
   }
 
   .stats-wrap {
@@ -479,28 +525,38 @@ redirect_from:
 
 ### 🔥 News
 
-<ul class="news-list">
-  <li class="news-item">
-    <div class="news-date">2026.01</div>
-    <div class="news-content">🎉 Our work “Samples Are Not Equal: A Sample Selection Approach for Deep Clustering” is accepted by ICLR 2026. <a href="https://iclr.cc/virtual/2026/poster/10009380">Paper</a> · <a href="https://github.com/notoaudrey/Samples-Are-Not-Equal">Code</a></div>
-  </li>
-  <li class="news-item">
-    <div class="news-date">2025.11</div>
-    <div class="news-content">🎉 Our work “DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning” is accepted by AAAI 2026. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39302">Paper</a> · <a href="https://github.com/hb-studying/DiCaP">Code</a></div>
-  </li>
-  <li class="news-item">
-    <div class="news-date">2025.10</div>
-    <div class="news-content">🎉 Received the National Scholarship for Ph.D. students.</div>
-  </li>
-  <li class="news-item">
-    <div class="news-date">2025.09</div>
-    <div class="news-content">🎉 Our work “Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning” is accepted by NeurIPS 2025. <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/116160">Paper</a> · <a href="https://github.com/YaxinHou/CPG">Code</a></div>
-  </li>
-  <li class="news-item">
-    <div class="news-date">2025.05</div>
-    <div class="news-content">🎉 Our work “A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning” is accepted by ICML 2025. <a href="https://icml.cc/virtual/2025/poster/44441">Paper</a> · <a href="https://github.com/YaxinHou/Meta-Expert">Code</a></div>
-  </li>
-</ul>
+<div class="news-box">
+  <ul class="news-list" id="news-list">
+    <li class="news-item">
+      <div class="news-date">2026.01</div>
+      <div class="news-content">🎉 Our work “Samples Are Not Equal: A Sample Selection Approach for Deep Clustering” is accepted by ICLR 2026. <a href="https://iclr.cc/virtual/2026/poster/10009380">Paper</a> · <a href="https://github.com/notoaudrey/Samples-Are-Not-Equal">Code</a></div>
+    </li>
+    <li class="news-item">
+      <div class="news-date">2025.11</div>
+      <div class="news-content">🎉 Our work “DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning” is accepted by AAAI 2026. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39302">Paper</a> · <a href="https://github.com/hb-studying/DiCaP">Code</a></div>
+    </li>
+    <li class="news-item">
+      <div class="news-date">2025.10</div>
+      <div class="news-content">🎉 Received the National Scholarship for Ph.D. students.</div>
+    </li>
+    <li class="news-item">
+      <div class="news-date">2025.09</div>
+      <div class="news-content">🎉 Our work “Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning” is accepted by NeurIPS 2025. <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/116160">Paper</a> · <a href="https://github.com/YaxinHou/CPG">Code</a></div>
+    </li>
+    <li class="news-item">
+      <div class="news-date">2025.05</div>
+      <div class="news-content">🎉 Our work “A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning” is accepted by ICML 2025. <a href="https://icml.cc/virtual/2025/poster/44441">Paper</a> · <a href="https://github.com/YaxinHou/Meta-Expert">Code</a></div>
+    </li>
+  </ul>
+
+  <div class="news-pagination">
+    <div class="news-page-info" id="news-page-info"></div>
+    <div class="news-pagination-buttons">
+      <button class="news-page-btn" id="news-prev" type="button">Prev</button>
+      <button class="news-page-btn" id="news-next" type="button">Next</button>
+    </div>
+  </div>
+</div>
 
 ### 📊 Publication Statistics
 
@@ -625,6 +681,45 @@ redirect_from:
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(renderCharts, 150);
   });
+</script>
+
+<script>
+  (function () {
+    const list = document.getElementById('news-list');
+    const prevBtn = document.getElementById('news-prev');
+    const nextBtn = document.getElementById('news-next');
+    const pageInfo = document.getElementById('news-page-info');
+    if (!list || !prevBtn || !nextBtn || !pageInfo) return;
+
+    const items = Array.from(list.querySelectorAll('.news-item'));
+    const perPage = 3;
+    const totalPages = Math.max(1, Math.ceil(items.length / perPage));
+    let currentPage = 1;
+
+    function renderNewsPage(page) {
+      currentPage = Math.min(Math.max(page, 1), totalPages);
+      const start = (currentPage - 1) * perPage;
+      const end = start + perPage;
+
+      items.forEach((item, index) => {
+        item.style.display = index >= start && index < end ? 'grid' : 'none';
+      });
+
+      pageInfo.textContent = `Page ${currentPage} / ${totalPages}`;
+      prevBtn.disabled = currentPage === 1;
+      nextBtn.disabled = currentPage === totalPages;
+    }
+
+    prevBtn.addEventListener('click', function () {
+      renderNewsPage(currentPage - 1);
+    });
+
+    nextBtn.addEventListener('click', function () {
+      renderNewsPage(currentPage + 1);
+    });
+
+    renderNewsPage(1);
+  })();
 </script>
 
 ### 📝 Publications
