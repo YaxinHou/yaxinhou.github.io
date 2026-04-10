@@ -172,7 +172,7 @@ redirect_from:
   .logo-panel {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.75rem;
+    gap: 1rem;
     align-items: center;
     justify-items: center;
   }
@@ -387,7 +387,7 @@ redirect_from:
     .logo-panel {
       justify-items: start;
       grid-template-columns: repeat(3, auto);
-      gap: 1.2rem;
+      gap: 1.45rem;
     }
 
     .logo-panel a:first-child {
