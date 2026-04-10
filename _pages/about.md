@@ -308,7 +308,7 @@ redirect_from:
 
   .pub-card {
     display: grid;
-    grid-template-columns: 210px minmax(0, 1fr);
+    grid-template-columns: 184px minmax(0, 1fr);
     gap: 1rem;
     padding: 0.95rem;
     background: #fff;
@@ -321,26 +321,32 @@ redirect_from:
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    background: var(--soft);
+    background: linear-gradient(180deg, #fbfcfd 0%, #f6f8fa 100%);
     border: 1px solid var(--line);
+    height: 124px;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .pub-thumb img {
     display: block;
     width: 100%;
-    height: 132px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
   }
 
   .paper-badge {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 0.18rem 0.45rem;
+    top: 9px;
+    left: 9px;
+    padding: 0.16rem 0.42rem;
     border-radius: 999px;
-    background: rgba(17, 24, 39, 0.82);
+    background: rgba(17, 24, 39, 0.78);
     color: #fff;
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     font-weight: 700;
     letter-spacing: 0.02em;
   }
@@ -485,9 +491,16 @@ redirect_from:
       gap: 0.25rem;
     }
 
+    .pub-thumb {
+      height: 150px;
+      padding: 0.75rem;
+    }
+
     .pub-thumb img {
-      height: auto;
-      max-height: 180px;
+      width: 100%;
+      height: 100%;
+      max-height: none;
+      object-fit: contain;
     }
 
     .stats-chart {
