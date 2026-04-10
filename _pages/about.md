@@ -49,64 +49,6 @@ redirect_from:
     color: #153b5d;
   }
 
-  .sidebar .author__name,
-  .author__name {
-    font-size: 1.18rem !important;
-    line-height: 1.3 !important;
-    font-weight: 700 !important;
-    color: var(--title) !important;
-    margin-top: 0.4rem !important;
-    margin-bottom: 0.85rem !important;
-  }
-
-  .sidebar .author__bio,
-  .author__bio {
-    font-size: 0.98rem !important;
-    line-height: 1.68 !important;
-    color: var(--text) !important;
-    margin-bottom: 0.85rem !important;
-  }
-
-  .sidebar .author__pronouns,
-  .author__pronouns {
-    font-size: 0.95rem !important;
-    line-height: 1.6 !important;
-    color: var(--muted) !important;
-    margin-bottom: 0.85rem !important;
-  }
-
-  .sidebar .author__urls-wrapper,
-  .author__urls-wrapper {
-    margin-top: 0.9rem !important;
-  }
-
-  .sidebar .author__urls,
-  .author__urls {
-    margin-top: 0.2rem !important;
-  }
-
-  .sidebar .author__urls li,
-  .author__urls li {
-    font-size: 0.97rem !important;
-    line-height: 1.65 !important;
-    margin-bottom: 0.5rem !important;
-  }
-
-  .sidebar .author__urls a,
-  .author__urls a {
-    font-size: 0.97rem !important;
-    color: var(--text) !important;
-  }
-
-  .sidebar .author__urls i,
-  .author__urls i,
-  .sidebar .author__urls svg,
-  .author__urls svg {
-    font-size: 0.98rem !important;
-    width: 1rem !important;
-    color: var(--text) !important;
-  }
-
   h3 {
     margin: 2.6rem 0 1rem;
     font-size: 1.02rem;
@@ -397,22 +339,6 @@ redirect_from:
   @media (max-width: 640px) {
     html {
       font-size: 14px;
-    }
-
-    .sidebar .author__name,
-    .author__name {
-      font-size: 1.1rem !important;
-    }
-
-    .sidebar .author__bio,
-    .author__bio,
-    .sidebar .author__pronouns,
-    .author__pronouns,
-    .sidebar .author__urls li,
-    .author__urls li,
-    .sidebar .author__urls a,
-    .author__urls a {
-      font-size: 0.94rem !important;
     }
 
     h3 {
