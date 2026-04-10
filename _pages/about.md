@@ -784,26 +784,24 @@ redirect_from:
 
 ### 👨‍💻 Professional Services
 
-<div class="two-col-grid">
-  <div class="info-card">
-    <h4>Conference Reviewer / Program Committee Member</h4>
-    <ul class="compact-list">
-      <li>The International Conference on Machine Learning (ICML), 2026.</li>
-      <li>The European Conference on Computer Vision (ECCV), 2026.</li>
-      <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
-      <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
-      <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025–2026.</li>
-    </ul>
-  </div>
+<div class="subheading">Conference Reviewer / Program Committee Member</div>
+<div class="info-card">
+  <ul class="compact-list">
+    <li>The International Conference on Machine Learning (ICML), 2026.</li>
+    <li>The European Conference on Computer Vision (ECCV), 2026.</li>
+    <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.</li>
+    <li>The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</li>
+    <li>The IEEE International Symposium on Machine Learning and Media Computing (MLMC), 2025–2026.</li>
+  </ul>
+</div>
 
-  <div class="info-card">
-    <h4>Journal Reviewer</h4>
-    <ul class="compact-list">
-      <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
-      <li>Transactions on Machine Learning Research (TMLR).</li>
-      <li>Pattern Recognition (PR).</li>
-    </ul>
-  </div>
+<div class="subheading">Journal Reviewer</div>
+<div class="info-card">
+  <ul class="compact-list">
+    <li>International Journal of Machine Learning and Cybernetics (IJMLC).</li>
+    <li>Transactions on Machine Learning Research (TMLR).</li>
+    <li>Pattern Recognition (PR).</li>
+  </ul>
 </div>
 
 ### 🏆 Honors & Awards
