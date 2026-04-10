@@ -387,7 +387,7 @@ redirect_from:
     .logo-panel {
       justify-items: start;
       grid-template-columns: repeat(3, auto);
-      gap: 0.8rem;
+      gap: 0.95rem;
     }
 
     .logo-panel a:first-child {
