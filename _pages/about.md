@@ -832,26 +832,24 @@ redirect_from:
 
 ### 🏆 Honors & Awards
 
-<div class="two-col-grid">
-  <div class="info-card">
-    <h4>Scholarships</h4>
-    <ul class="compact-list">
-      <li>National Scholarship (2025, The Chinese Ministry of Education).</li>
-      <li>Master's Academic Scholarship (2020, The Henan Department of Education).</li>
-      <li>National Encouragement Scholarship (2019, The Henan Department of Education).</li>
-      <li>National Encouragement Scholarship (2017, The Henan Department of Education).</li>
-    </ul>
-  </div>
+<div class="subheading">Scholarships</div>
+<div class="info-card">
+  <ul class="compact-list">
+    <li>National Scholarship (2025, The Chinese Ministry of Education).</li>
+    <li>Master's Academic Scholarship (2020, The Henan Department of Education).</li>
+    <li>National Encouragement Scholarship (2019, The Henan Department of Education).</li>
+    <li>National Encouragement Scholarship (2017, The Henan Department of Education).</li>
+  </ul>
+</div>
 
-  <div class="info-card">
-    <h4>Honors</h4>
-    <ul class="compact-list">
-      <li>Merit Graduate Student (2025, Southeast University).</li>
-      <li>Outstanding Graduate Student (2023, Henan University).</li>
-      <li>Outstanding Graduate (2020, The Henan Department of Education).</li>
-      <li>Merit Student (2020, The Henan Department of Education).</li>
-    </ul>
-  </div>
+<div class="subheading">Honors</div>
+<div class="info-card">
+  <ul class="compact-list">
+    <li>Merit Graduate Student (2025, Southeast University).</li>
+    <li>Outstanding Graduate Student (2023, Henan University).</li>
+    <li>Outstanding Graduate (2020, The Henan Department of Education).</li>
+    <li>Merit Student (2020, The Henan Department of Education).</li>
+  </ul>
 </div>
 
 ### 📧 Contact
