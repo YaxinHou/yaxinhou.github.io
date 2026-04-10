@@ -281,7 +281,7 @@ redirect_from:
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background: #fff;
-    padding: 1rem 0.9rem;
+    padding: 1rem 0.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,8 +289,8 @@ redirect_from:
   }
 
   .stats-chart {
-    width: min(100%, 320px);
-    height: 320px;
+    width: min(100%, 336px);
+    height: 336px;
     margin: 0 auto;
     flex: 0 0 auto;
     overflow: visible;
@@ -506,8 +506,8 @@ redirect_from:
     }
 
     .stats-chart {
-      width: min(100%, 272px);
-      height: 272px;
+      width: min(100%, 286px);
+      height: 286px;
     }
   }
 </style>
@@ -665,9 +665,14 @@ redirect_from:
       series: [
         {
           type: 'pie',
-          radius: isMobile ? ['41%', '59%'] : ['46%', '63%'],
+          left: isMobile ? 10 : 18,
+          right: isMobile ? 10 : 18,
+          top: isMobile ? 18 : 20,
+          bottom: isMobile ? 18 : 20,
+          radius: isMobile ? ['39%', '57%'] : ['44%', '61%'],
           center: isMobile ? ['50%', '56%'] : ['50%', '57%'],
           minShowLabelAngle: 8,
+          avoidLabelOverlap: true,
           itemStyle: {
             borderColor: '#ffffff',
             borderWidth: 2
@@ -675,11 +680,14 @@ redirect_from:
           label: {
             color: '#4b5563',
             fontSize: isMobile ? 9 : 11,
-            formatter: isMobile ? '{b}\n{c}' : '{b}: {c}'
+            formatter: isMobile ? '{b}\n{c}' : '{b}: {c}',
+            width: isMobile ? 44 : 64,
+            overflow: 'break'
           },
           labelLine: {
             length: isMobile ? 6 : 9,
-            length2: isMobile ? 5 : 8,
+            length2: isMobile ? 6 : 10,
+            maxSurfaceAngle: 80,
             lineStyle: { color: '#c7d0db' }
           },
           emphasis: { scale: false },
