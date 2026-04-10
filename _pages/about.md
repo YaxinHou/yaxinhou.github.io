@@ -281,17 +281,19 @@ redirect_from:
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background: #fff;
-    padding: 1rem 1.1rem;
+    padding: 1rem 0.9rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: visible;
   }
 
   .stats-chart {
-    width: min(100%, 300px);
-    height: 300px;
+    width: min(100%, 320px);
+    height: 320px;
     margin: 0 auto;
     flex: 0 0 auto;
+    overflow: visible;
   }
 
   .subheading {
@@ -504,8 +506,8 @@ redirect_from:
     }
 
     .stats-chart {
-      width: min(100%, 255px);
-      height: 255px;
+      width: min(100%, 272px);
+      height: 272px;
     }
   }
 </style>
@@ -663,8 +665,8 @@ redirect_from:
       series: [
         {
           type: 'pie',
-          radius: isMobile ? ['40%', '58%'] : ['45%', '64%'],
-          center: ['50%', '58%'],
+          radius: isMobile ? ['41%', '59%'] : ['46%', '63%'],
+          center: isMobile ? ['50%', '56%'] : ['50%', '57%'],
           minShowLabelAngle: 8,
           itemStyle: {
             borderColor: '#ffffff',
@@ -672,12 +674,12 @@ redirect_from:
           },
           label: {
             color: '#4b5563',
-            fontSize: isMobile ? 9 : 10,
+            fontSize: isMobile ? 9 : 11,
             formatter: isMobile ? '{b}\n{c}' : '{b}: {c}'
           },
           labelLine: {
-            length: isMobile ? 5 : 7,
-            length2: isMobile ? 4 : 6,
+            length: isMobile ? 6 : 9,
+            length2: isMobile ? 5 : 8,
             lineStyle: { color: '#c7d0db' }
           },
           emphasis: { scale: false },
