@@ -518,7 +518,7 @@ redirect_from:
   <div class="hero-text">
     <p>
       I am currently a Ph.D. student at Southeast University, under the supervision of
-      <a href="https://jyh-learning.github.io"><strong>Assoc. Prof. Yuheng Jia</strong></a>.
+      <a href="https://jyh-learning.github.io"><strong>Prof. Yuheng Jia</strong></a>.
       I received my M.S. degree from Henan University in 2023, under the supervision of
       <a href="https://cs.henu.edu.cn/info/1273/5566.htm"><strong>Prof. Chongsheng Zhang</strong></a>.
       Before that, I obtained my B.S. degree in 2020 from Henan Institute of Engineering.
