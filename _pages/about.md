@@ -785,7 +785,7 @@ redirect_from:
       <img src="./images/CPG.png" alt="Publication Image">
     </div>
     <div>
-      <div class="pub-meta">Annual Conference on Neural Information Processing Systems (NeurIPS), 2025</div>
+      <div class="pub-meta">Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.</div>
       <div class="pub-title">Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning.</div>
       <div class="pub-authors"><strong style="color:#111827;">Yaxin Hou</strong>, Bo Han, Yuheng Jia, Hui Liu, Junhui Hou.</div>
     </div>
@@ -797,7 +797,7 @@ redirect_from:
       <img src="./images/Meta-Expert.png" alt="Publication Image">
     </div>
     <div>
-      <div class="pub-meta">International Conference on Machine Learning (ICML), 2025</div>
+      <div class="pub-meta">International Conference on Machine Learning (ICML), 2025.</div>
       <div class="pub-title">A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning.</div>
       <div class="pub-authors"><strong style="color:#111827;">Yaxin Hou</strong>, Yuheng Jia.</div>
     </div>
@@ -809,7 +809,7 @@ redirect_from:
       <img src="./images/QAST.png" alt="Publication Image">
     </div>
     <div>
-      <div class="pub-meta">AAAI Conference on Artificial Intelligence (AAAI), 2023</div>
+      <div class="pub-meta">AAAI Conference on Artificial Intelligence (AAAI), 2023.</div>
       <div class="pub-title">Quality-Aware Self-Training on Differentiable Synthesis of Rare Relational Data.</div>
       <div class="pub-authors">Chongsheng Zhang, <strong style="color:#111827;">Yaxin Hou</strong>, Ke Chen, Shuang Cao, Gaojuan Fan, Ji Liu.</div>
     </div>
@@ -824,7 +824,7 @@ redirect_from:
       <img src="./images/imFTP.png" alt="Publication Image">
     </div>
     <div>
-      <div class="pub-meta">Information Sciences (Inf. Sci.), 2024</div>
+      <div class="pub-meta">Information Sciences (Inf. Sci.), 2024.</div>
       <div class="pub-title">imFTP: Deep imbalance learning via fuzzy transition and prototypical learning.</div>
       <div class="pub-authors"><strong style="color:#111827;">Yaxin Hou</strong>, Weiping Ding, Chongsheng Zhang.</div>
     </div>
