@@ -398,6 +398,7 @@ redirect_from:
     color: var(--accent);
     font-size: 0.84rem;
     font-weight: 600;
+    text-decoration: none !important;
     box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
   }
 
@@ -405,6 +406,7 @@ redirect_from:
     background: var(--accent-soft);
     border-color: #bfd3e6;
     color: #163f64;
+    text-decoration: none !important;
   }
 
   .pub-btn.secondary {
