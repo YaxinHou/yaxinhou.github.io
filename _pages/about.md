@@ -221,25 +221,32 @@ redirect_from:
   .logo-panel {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.9rem;
-    align-items: stretch;
+    gap: 1rem;
+    align-items: start;
     justify-items: stretch;
+    width: 100%;
+    min-width: 0;
   }
 
   .logo-panel a {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 82px;
-    padding: 0.85rem;
+    min-height: 126px;
+    width: 100%;
+    min-width: 0;
+    padding: 1rem 1.15rem;
     background: rgba(255, 255, 255, 0.92);
     border: 1px solid var(--line);
-    border-radius: 16px;
+    border-radius: 18px;
     box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   .logo-panel a:first-child {
     grid-column: 1 / -1;
+    min-height: 146px;
   }
 
   .logo-panel a:hover {
@@ -251,11 +258,15 @@ redirect_from:
   .logo-panel img {
     display: block;
     width: auto;
-    max-width: 112px;
-    max-height: 78px;
+    max-width: 100%;
+    max-height: 88px;
     object-fit: contain;
     filter: grayscale(6%);
     opacity: 0.96;
+  }
+
+  .logo-panel a:first-child img {
+    max-height: 92px;
   }
 
   .news-box,
