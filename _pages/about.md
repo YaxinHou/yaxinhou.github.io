@@ -1072,7 +1072,7 @@ redirect_from:
 ### 📝 Publications
 
 <div class="section-note">
-  Papers are listed in descending order by year of submission before publication, or by year of publication. For a full list, please visit my <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ">Google Scholar</a> page.
+  Papers are listed in descending order by year of publication. For a full list, please visit my <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=-0IuShsAAAAJ">Google Scholar</a> page.
 </div>
 
 <div class="subheading">Conference Papers</div>
