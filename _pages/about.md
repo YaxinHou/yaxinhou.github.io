@@ -1089,6 +1089,10 @@ redirect_from:
       series: [
         {
           type: 'pie',
+          left: isMobile ? 16 : 24,
+          right: isMobile ? 16 : 24,
+          top: isMobile ? 26 : 28,
+          bottom: isMobile ? 34 : 36,
           radius: isMobile ? ['50%', '72%'] : ['58%', '82%'],
           center: ['50%', '54%'],
           minAngle: 8,
