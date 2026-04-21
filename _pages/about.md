@@ -1089,8 +1089,13 @@ redirect_from:
       series: [
         {
           type: 'pie',
-          radius: isMobile ? ['42%', '60%'] : ['48%', '66%'],
-          center: ['50%', '50%'],
+          left: isMobile ? 16 : 24,
+          right: isMobile ? 16 : 24,
+          top: isMobile ? 26 : 28,
+          bottom: isMobile ? 34 : 36,
+          type: 'pie',
+          radius: isMobile ? ['40%', '58%'] : ['46%', '64%'],
+          center: ['50%', '48%'],
           minAngle: 8,
           avoidLabelOverlap: true,
           itemStyle: {
@@ -1103,11 +1108,14 @@ redirect_from:
             color: '#475467',
             fontSize: isMobile ? 10 : 11,
             fontWeight: 600,
-            formatter: isMobile ? '{b}\n{c}' : '{b}: {c}'
+            formatter: isMobile ? '{b}\n{c}' : '{b}: {c}',
+            width: isMobile ? 52 : 76,
+            overflow: 'break'
           },
           labelLine: {
-            length: isMobile ? 8 : 10,
-            length2: isMobile ? 8 : 12,
+            length: isMobile ? 6 : 8,
+            length2: isMobile ? 6 : 9,
+            maxSurfaceAngle: 80,
             lineStyle: {
               color: '#cbd5e1'
             }
