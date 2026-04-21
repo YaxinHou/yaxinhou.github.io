@@ -506,8 +506,8 @@ redirect_from:
   }
 
   .stats-chart {
-    width: min(100%, 340px);
-    height: 300px;
+    width: min(100%, 420px);
+    height: 340px;
     margin: 0.1rem auto 0;
     flex: 0 0 auto;
     overflow: visible;
@@ -863,8 +863,8 @@ redirect_from:
     }
 
     .stats-chart {
-      width: min(100%, 290px);
-      height: 270px;
+      width: min(100%, 320px);
+      height: 300px;
     }
 
     .stats-metric-grid {
@@ -1074,13 +1074,13 @@ redirect_from:
         {
           type: 'text',
           left: 'center',
-          top: '50%',
+          top: '54%',
           style: {
             text: '6',
             textAlign: 'center',
             textVerticalAlign: 'middle',
             fill: '#0f172a',
-            fontSize: isMobile ? 24 : 28,
+            fontSize: isMobile ? 28 : 34,
             fontWeight: 800,
             fontFamily: 'Inter, Arial, sans-serif'
           }
@@ -1094,8 +1094,8 @@ redirect_from:
           top: isMobile ? 26 : 28,
           bottom: isMobile ? 34 : 36,
           type: 'pie',
-          radius: isMobile ? ['40%', '58%'] : ['46%', '64%'],
-          center: ['50%', '48%'],
+          radius: isMobile ? ['50%', '72%'] : ['58%', '82%'],
+          center: ['50%', '54%'],
           minAngle: 8,
           avoidLabelOverlap: true,
           itemStyle: {
