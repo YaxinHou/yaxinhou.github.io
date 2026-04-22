@@ -1191,7 +1191,7 @@ redirect_from:
         left: 8,
         right: 8,
         top: 8,
-        bottom: 30,
+        bottom: 36,
         containLabel: true
       },
       tooltip: {
@@ -1259,18 +1259,19 @@ redirect_from:
           type: 'inside',
           xAxisIndex: 0,
           filterMode: 'none',
-          start: 15,
-          end: 85
+          start: 8,
+          end: 42
         },
         {
           type: 'slider',
           xAxisIndex: 0,
-          left: 10,
-          right: 10,
-          bottom: 2,
-          height: 18,
+          left: 6,
+          right: 6,
+          bottom: 0,
+          height: 16,
           borderColor: 'transparent',
-          backgroundColor: 'rgba(0,0,0,0)',
+          backgroundColor: '#d9dde2',
+          fillerColor: '#8f959c',
           dataBackground: {
             lineStyle: { opacity: 0 },
             areaStyle: { opacity: 0 }
@@ -1279,20 +1280,19 @@ redirect_from:
             lineStyle: { opacity: 0 },
             areaStyle: { opacity: 0 }
           },
-          fillerColor: '#9aa1a8',
-          moveHandleSize: 0,
           showDetail: false,
           showDataShadow: false,
           brushSelect: false,
-          handleSize: 12,
+          moveHandleSize: 0,
+          handleSize: 10,
           handleStyle: {
             color: '#7f858c',
             borderColor: '#7f858c',
             shadowBlur: 0
           },
-          handleIcon: 'path://M2,6 L10,2 L10,10 Z',
-          start: 15,
-          end: 85
+          handleIcon: 'path://M3,6 L8,2.6 L8,9.4 Z',
+          start: 8,
+          end: 42
         }
       ],
       series: [
