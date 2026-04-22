@@ -1191,7 +1191,7 @@ redirect_from:
         left: 8,
         right: 8,
         top: 8,
-        bottom: 28,
+        bottom: 30,
         containLabel: true
       },
       tooltip: {
@@ -1259,34 +1259,18 @@ redirect_from:
           type: 'inside',
           xAxisIndex: 0,
           filterMode: 'none',
-          zoomLock: false,
-          moveOnMouseMove: true,
-          moveOnMouseWheel: true,
-          preventDefaultMouseMove: false,
-          start: 0,
-          end: 100
+          start: 15,
+          end: 85
         },
         {
           type: 'slider',
           xAxisIndex: 0,
-          left: 18,
-          right: 18,
-          height: 14,
+          left: 10,
+          right: 10,
           bottom: 2,
+          height: 18,
           borderColor: 'transparent',
           backgroundColor: 'rgba(0,0,0,0)',
-          fillerColor: '#8f959c',
-          handleSize: 12,
-          handleIcon: 'path://M2,6 L10,2 L10,10 Z',
-          handleStyle: {
-            color: '#8f959c',
-            borderColor: '#8f959c',
-            shadowBlur: 0
-          },
-          moveHandleSize: 0,
-          showDetail: false,
-          showDataShadow: false,
-          brushSelect: false,
           dataBackground: {
             lineStyle: { opacity: 0 },
             areaStyle: { opacity: 0 }
@@ -1295,9 +1279,20 @@ redirect_from:
             lineStyle: { opacity: 0 },
             areaStyle: { opacity: 0 }
           },
-          labelFormatter: '',
-          start: 18,
-          end: 82
+          fillerColor: '#9aa1a8',
+          moveHandleSize: 0,
+          showDetail: false,
+          showDataShadow: false,
+          brushSelect: false,
+          handleSize: 12,
+          handleStyle: {
+            color: '#7f858c',
+            borderColor: '#7f858c',
+            shadowBlur: 0
+          },
+          handleIcon: 'path://M2,6 L10,2 L10,10 Z',
+          start: 15,
+          end: 85
         }
       ],
       series: [
