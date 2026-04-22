@@ -573,16 +573,16 @@ redirect_from:
   }
 
   .stats-mini-chart-frame {
-    border: 1px solid var(--line);
-    border-radius: 18px;
-    background: linear-gradient(180deg, rgba(255,255,255,0.96) 0%, rgba(248,250,252,0.96) 100%);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.75);
-    padding: 0.55rem 0.55rem 0.35rem;
+    border: 1px solid #e9eef5;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.96) 0%, rgba(250,252,255,0.96) 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+    padding: 0.45rem 0.5rem 0.18rem;
   }
 
   .stats-mini-chart {
     width: 100%;
-    height: 250px;
+    height: 190px;
   }
 
   .subheading {
@@ -909,7 +909,7 @@ redirect_from:
     }
 
     .stats-mini-chart {
-      height: 230px;
+      height: 175px;
     }
   }
 </style>
@@ -1188,10 +1188,10 @@ redirect_from:
     return {
       animationDuration: 700,
       grid: {
-        left: 12,
-        right: 14,
-        top: 16,
-        bottom: 54,
+        left: 10,
+        right: 10,
+        top: 12,
+        bottom: 34,
         containLabel: true
       },
       tooltip: {
@@ -1199,7 +1199,7 @@ redirect_from:
         axisPointer: {
           type: 'shadow',
           shadowStyle: {
-            color: 'rgba(36, 91, 146, 0.06)'
+            color: 'rgba(36, 91, 146, 0.05)'
           }
         },
         formatter: function (params) {
@@ -1228,6 +1228,7 @@ redirect_from:
         axisLabel: {
           color: '#667085',
           fontSize: isMobile ? 10 : 11,
+          margin: 10,
           fontFamily: 'Inter, Arial, sans-serif'
         }
       },
@@ -1235,10 +1236,10 @@ redirect_from:
         type: 'value',
         min: 0,
         interval: 1,
-        splitNumber: 4,
+        splitNumber: 3,
         splitLine: {
           lineStyle: {
-            color: '#edf2f7'
+            color: '#eef2f6'
           }
         },
         axisLine: {
@@ -1258,26 +1259,28 @@ redirect_from:
           type: 'inside',
           xAxisIndex: 0,
           filterMode: 'none',
-          zoomLock: false,
-          moveOnMouseMove: true,
-          moveOnMouseWheel: true,
-          preventDefaultMouseMove: false,
           start: 0,
           end: 100
         },
         {
           type: 'slider',
           xAxisIndex: 0,
-          height: 16,
-          bottom: 10,
+          height: 8,
+          bottom: 6,
           borderColor: 'transparent',
-          backgroundColor: '#eef2f6',
-          fillerColor: '#8d97a3',
-          handleSize: 0,
+          backgroundColor: '#edf2f7',
+          fillerColor: '#a7b1bd',
+          handleSize: 10,
+          handleIcon: 'M8.2,13.4V2.6c0-0.3-0.2-0.5-0.5-0.5H6.3C6,2.1,5.8,2.3,5.8,2.6v10.8c0,0.3,0.2,0.5,0.5,0.5h1.4C8,13.9,8.2,13.7,8.2,13.4z',
+          handleStyle: {
+            color: '#c3ccd6',
+            borderColor: '#c3ccd6',
+            shadowBlur: 0
+          },
+          moveHandleSize: 0,
           showDetail: false,
           showDataShadow: false,
           brushSelect: false,
-          moveHandleSize: 0,
           start: 0,
           end: 100
         }
@@ -1286,14 +1289,14 @@ redirect_from:
         {
           type: 'bar',
           data: yearlyPapersData.map(item => item.value),
-          barWidth: isMobile ? 18 : 22,
+          barWidth: isMobile ? 16 : 20,
           itemStyle: {
-            color: '#8a8a8a',
+            color: '#979797',
             borderRadius: [0, 0, 0, 0]
           },
           emphasis: {
             itemStyle: {
-              color: '#6f6f6f'
+              color: '#7f7f7f'
             }
           }
         }
