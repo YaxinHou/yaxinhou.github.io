@@ -1191,7 +1191,7 @@ redirect_from:
         left: 8,
         right: 8,
         top: 8,
-        bottom: 24,
+        bottom: 28,
         containLabel: true
       },
       tooltip: {
@@ -1269,16 +1269,24 @@ redirect_from:
         {
           type: 'slider',
           xAxisIndex: 0,
-          height: 5,
-          bottom: 4,
+          left: 18,
+          right: 18,
+          height: 14,
+          bottom: 2,
           borderColor: 'transparent',
-          backgroundColor: '#eef2f6',
-          fillerColor: '#b4bcc6',
-          handleSize: 0,
+          backgroundColor: 'rgba(0,0,0,0)',
+          fillerColor: '#8f959c',
+          handleSize: 12,
+          handleIcon: 'path://M2,6 L10,2 L10,10 Z',
+          handleStyle: {
+            color: '#8f959c',
+            borderColor: '#8f959c',
+            shadowBlur: 0
+          },
+          moveHandleSize: 0,
           showDetail: false,
           showDataShadow: false,
           brushSelect: false,
-          moveHandleSize: 0,
           dataBackground: {
             lineStyle: { opacity: 0 },
             areaStyle: { opacity: 0 }
@@ -1287,13 +1295,9 @@ redirect_from:
             lineStyle: { opacity: 0 },
             areaStyle: { opacity: 0 }
           },
-          emphasis: {
-            moveHandleStyle: {
-              opacity: 0
-            }
-          },
-          start: 0,
-          end: 100
+          labelFormatter: '',
+          start: 18,
+          end: 82
         }
       ],
       series: [
