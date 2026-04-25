@@ -360,6 +360,10 @@ redirect_from:
     border-bottom: none;
   }
 
+  .news-item.is-page-last {
+    border-bottom: none;
+  }
+
   .news-date {
     display: inline-flex;
     align-items: center;
@@ -1000,7 +1004,9 @@ redirect_from:
       const end = start + perPage;
 
       items.forEach((item, index) => {
-        item.style.display = index >= start && index < end ? 'grid' : 'none';
+        const visible = index >= start && index < end;
+        item.style.display = visible ? 'grid' : 'none';
+        item.classList.toggle('is-page-last', visible && index === Math.min(end, items.length) - 1);
       });
 
       pageInfo.textContent = `Page ${currentPage} / ${totalPages}`;
