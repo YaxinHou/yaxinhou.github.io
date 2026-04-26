@@ -1205,6 +1205,41 @@ redirect_from:
     }
   }
 
+
+  /* === Flat cards: remove glossy gradient overlays === */
+  .hero,
+  .news-box,
+  .stats-card,
+  .stats-summary-card,
+  .info-card,
+  .contact-card,
+  .pub-card,
+  .logo-panel a,
+  .stats-metric-item,
+  .stats-mini-chart-frame,
+  .pub-thumb,
+  .news-pagination {
+    background: #ffffff !important;
+  }
+
+  .hero::before,
+  .hero::after,
+  .logo-panel a::before,
+  .pub-card::before,
+  .stats-card::before,
+  .stats-summary-card::before,
+  .info-card::before,
+  .contact-card::before,
+  .news-box::before {
+    display: none !important;
+  }
+
+  .stats-metric-value {
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    color: var(--title) !important;
+  }
 </style>
 
 ### 👨‍🎓 Profile
