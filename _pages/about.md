@@ -1205,8 +1205,6 @@ redirect_from:
     }
   }
 
-
-  /* === Flat cards: remove glossy gradient overlays === */
   .hero,
   .news-box,
   .stats-card,
@@ -1240,6 +1238,7 @@ redirect_from:
     background-clip: initial !important;
     color: var(--title) !important;
   }
+
 </style>
 
 ### 👨‍🎓 Profile
