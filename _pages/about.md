@@ -1211,9 +1211,8 @@ redirect_from:
 
 <div class="hero">
   <div class="hero-text">
-    <div class="hero-kicker">Research Portfolio</div>
     <h1 class="hero-title">Yaxin Hou</h1>
-    <div class="hero-subtitle">Ph.D. Student · Machine Learning · Southeast University</div>
+    <div class="hero-subtitle">Ph.D. Student · Southeast University</div>
     <p>
       I am currently a Ph.D. student at Southeast University, under the supervision of
       <a href="https://jyh-learning.github.io"><strong>Prof. Yuheng Jia</strong></a>.
@@ -1223,9 +1222,9 @@ redirect_from:
       My research interests lie in machine learning, with a focus on long-tailed learning and weakly supervised learning.
     </p>
     <div class="hero-links">
-      <span class="hero-chip">Machine Learning</span>
       <span class="hero-chip">Long-Tailed Learning</span>
       <span class="hero-chip">Weakly Supervised Learning</span>
+      <span class="hero-chip">Vision-Language Models</span>
     </div>
   </div>
 
