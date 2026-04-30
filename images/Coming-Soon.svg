@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="433.41703" height="205.79505" viewBox="0 0 433.41703 205.79505">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbf4e6"/>
+      <stop offset="55%" stop-color="#f4ead7"/>
+      <stop offset="100%" stop-color="#efe1c8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.78"/>
+      <stop offset="58%" stop-color="#fff8ea" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#d9c19a" stop-opacity="0.20"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151515"/>
+      <stop offset="52%" stop-color="#2b2721"/>
+      <stop offset="100%" stop-color="#6f5531"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-35%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3.2" flood-color="#5b4322" flood-opacity="0.18"/>
+    </filter>
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="8" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.98  0 0 0 0 0.92  0 0 0 0 0.80  0 0 0 .045 0"/>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
+    </filter>
+    <style>
+      .poster-font {
+        font-family: "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-weight: 800;
+        letter-spacing: 10px;
+      }
+      .subtle {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-weight: 900;
+        letter-spacing: 14px;
+      }
+    </style>
+  </defs>
+
+  <rect width="433.41703" height="205.79505" fill="url(#bg)"/>
+  <rect width="433.41703" height="205.79505" fill="url(#glow)" filter="url(#paper)"/>
+
+  <!-- oversized typographic echo, same words only -->
+  <g opacity="0.085">
+    <text x="216.7085" y="91" text-anchor="middle" class="subtle" font-size="54" fill="#7d5d2f">COMING</text>
+    <text x="216.7085" y="146" text-anchor="middle" class="subtle" font-size="54" fill="#7d5d2f">SOON</text>
+  </g>
+
+  <!-- main typography -->
+  <g filter="url(#softShadow)">
+    <text x="216.7085" y="89" text-anchor="middle" class="poster-font" font-size="39" fill="url(#titleGrad)">COMING</text>
+    <text x="216.7085" y="135" text-anchor="middle" class="poster-font" font-size="39" fill="url(#titleGrad)">SOON</text>
+  </g>
+
+  <!-- thin typographic highlight, no extra graphic element -->
+  <g opacity="0.22">
+    <text x="216.7085" y="87" text-anchor="middle" class="poster-font" font-size="39" fill="#fffaf0">COMING</text>
+    <text x="216.7085" y="133" text-anchor="middle" class="poster-font" font-size="39" fill="#fffaf0">SOON</text>
+  </g>
+</svg>
