@@ -1373,7 +1373,7 @@ redirect_from:
     <div class="stats-metric-grid">
       <div class="stats-metric-item">
         <span class="stats-metric-label">CCF A</span>
-        <span class="stats-metric-value">5</span>
+        <span class="stats-metric-value">6</span>
       </div>
       <div class="stats-metric-item">
         <span class="stats-metric-label">CCF B</span>
@@ -1381,7 +1381,7 @@ redirect_from:
       </div>
       <div class="stats-metric-item">
         <span class="stats-metric-label">Conference</span>
-        <span class="stats-metric-value">5</span>
+        <span class="stats-metric-value">6</span>
       </div>
       <div class="stats-metric-item">
         <span class="stats-metric-label">Journal</span>
@@ -1415,7 +1415,7 @@ redirect_from:
   const allPapersData = [
     { value: 1, name: 'ICLR' },
     { value: 1, name: 'NeurIPS' },
-    { value: 1, name: 'ICML' },
+    { value: 2, name: 'ICML' },
     { value: 2, name: 'AAAI' },
     { value: 1, name: 'Inf. Sci.' }
   ];
@@ -1424,7 +1424,7 @@ redirect_from:
     { year: '2023', value: 1 },
     { year: '2024', value: 1 },
     { year: '2025', value: 2 },
-    { year: '2026', value: 2 }
+    { year: '2026', value: 3 }
   ];
 
   function buildPieOption() {
@@ -1462,7 +1462,7 @@ redirect_from:
           left: 'center',
           top: '40%',
           style: {
-            text: '6',
+            text: '7',
             textAlign: 'center',
             textVerticalAlign: 'middle',
             fill: '#0f172a',
